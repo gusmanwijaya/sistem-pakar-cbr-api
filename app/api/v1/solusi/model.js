@@ -2,6 +2,10 @@ const mongoose = require("mongoose");
 
 const solusiSchema = mongoose.Schema(
   {
+    kode: {
+      type: String,
+      required: [true, "Kode tidak boleh kosong!"],
+    },
     solusi: {
       type: String,
       required: [true, "Solusi tidak boleh kosong!"],

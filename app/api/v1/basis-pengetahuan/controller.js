@@ -23,7 +23,7 @@ module.exports = {
         })
         .populate({
           path: "solusi",
-          select: "_id solusi",
+          select: "_id kode solusi",
           model: "Solusi",
         });
 
@@ -59,7 +59,7 @@ module.exports = {
         })
         .populate({
           path: "solusi",
-          select: "_id solusi",
+          select: "_id kode solusi",
           model: "Solusi",
         });
 

@@ -8,7 +8,7 @@ module.exports = {
       const { page = 1, limit = 10 } = req.query;
 
       const data = await Solusi.find()
-        .select("_id solusi")
+        .select("_id kode solusi")
         .limit(limit)
         .skip(limit * (page - 1));
 
@@ -28,7 +28,7 @@ module.exports = {
   },
   getForSelect: async (req, res, next) => {
     try {
-      const data = await Solusi.find().select("_id solusi ");
+      const data = await Solusi.find().select("_id kode solusi ");
 
       res.status(StatusCodes.OK).json({
         statusCode: StatusCodes.OK,
@@ -43,7 +43,9 @@ module.exports = {
     try {
       const { id: solusiId } = req.params;
 
-      const data = await Solusi.findOne({ _id: solusiId }).select("_id solusi");
+      const data = await Solusi.findOne({ _id: solusiId }).select(
+        "_id kode solusi"
+      );
 
       if (!data)
         throw new CustomError.NotFound(
@@ -61,13 +63,16 @@ module.exports = {
   },
   create: async (req, res, next) => {
     try {
-      const { solusi } = req.body;
+      const { kode, solusi } = req.body;
+
+      const checkKode = await Solusi.findOne({ kode }).select("kode");
+      if (checkKode) throw new CustomError.BadRequest(`Kode sudah terdaftar`);
 
       const checkSolusi = await Solusi.findOne({ solusi }).select("solusi");
       if (checkSolusi)
         throw new CustomError.BadRequest(`Solusi sudah terdaftar`);
 
-      const data = new Solusi({ solusi });
+      const data = new Solusi({ kode, solusi });
       await data.save();
 
       res.status(StatusCodes.CREATED).json({
@@ -82,7 +87,15 @@ module.exports = {
   update: async (req, res, next) => {
     try {
       const { id: solusiId } = req.params;
-      const { solusi } = req.body;
+      const { kode, solusi } = req.body;
+
+      const checkKode = await Solusi.findOne({
+        _id: {
+          $ne: solusiId,
+        },
+        kode,
+      }).select("kode");
+      if (checkKode) throw new CustomError.BadRequest(`Kode sudah terdaftar`);
 
       const checkSolusi = await Solusi.findOne({
         _id: {
@@ -100,6 +113,7 @@ module.exports = {
           `Solusi dengan id ${solusiId} tidak ditemukan`
         );
 
+      data.kode = kode;
       data.solusi = solusi;
       await data.save();
 
