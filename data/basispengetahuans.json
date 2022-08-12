@@ -1,0 +1,133 @@
+[{
+  "_id": {
+    "$oid": "62f4f1a15dc9976988debf37"
+  },
+  "hamaPenyakit": {
+    "$oid": "62c9868badc521328f3e462f"
+  },
+  "gejala": [
+    {
+      "$oid": "62f4ec6c5dc9976988debdcc"
+    },
+    {
+      "$oid": "62f4ec7a5dc9976988debdd3"
+    },
+    {
+      "$oid": "62f4ec875dc9976988debdda"
+    },
+    {
+      "$oid": "62f4ec935dc9976988debde1"
+    },
+    {
+      "$oid": "62f4eca65dc9976988debde8"
+    },
+    {
+      "$oid": "62f4ecb55dc9976988debdef"
+    },
+    {
+      "$oid": "62f4ecc45dc9976988debdf6"
+    },
+    {
+      "$oid": "62f4ece65dc9976988debdfd"
+    },
+    {
+      "$oid": "62f4ecf35dc9976988debe04"
+    },
+    {
+      "$oid": "62f4ed005dc9976988debe0b"
+    },
+    {
+      "$oid": "62f4ed155dc9976988debe12"
+    }
+  ],
+  "solusi": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1660219809460"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1660219809460"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f4f2115dc9976988debf40"
+  },
+  "hamaPenyakit": {
+    "$oid": "62c986a1adc521328f3e4633"
+  },
+  "gejala": [
+    {
+      "$oid": "62f4ed4d5dc9976988debe23"
+    },
+    {
+      "$oid": "62f4ed5e5dc9976988debe2a"
+    },
+    {
+      "$oid": "62f4ed6a5dc9976988debe31"
+    },
+    {
+      "$oid": "62f4ed7a5dc9976988debe38"
+    },
+    {
+      "$oid": "62f4ed8d5dc9976988debe3f"
+    }
+  ],
+  "solusi": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1660219921102"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1660219921102"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f4f30d5dc9976988debf49"
+  },
+  "hamaPenyakit": {
+    "$oid": "62f4f0c05dc9976988debf10"
+  },
+  "gejala": [
+    {
+      "$oid": "62f4edac5dc9976988debe46"
+    },
+    {
+      "$oid": "62f4ed6a5dc9976988debe31"
+    },
+    {
+      "$oid": "62f4edd65dc9976988debe4f"
+    },
+    {
+      "$oid": "62f4ed7a5dc9976988debe38"
+    },
+    {
+      "$oid": "62f4edf95dc9976988debe58"
+    },
+    {
+      "$oid": "62f4ee085dc9976988debe5f"
+    },
+    {
+      "$oid": "62f4ed8d5dc9976988debe3f"
+    }
+  ],
+  "solusi": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1660220173408"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1660220173408"
+    }
+  },
+  "__v": 0
+}]

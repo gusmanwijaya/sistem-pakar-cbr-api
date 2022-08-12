@@ -1,0 +1,39 @@
+[{
+  "_id": {
+    "$oid": "62c984a66f9347fa4300a9a3"
+  },
+  "nama": "Pakar",
+  "email": "pakar@gmail.com",
+  "password": "$2a$10$IwnYXKzeF8E6aKFA8HyRkulpy1Pec7A4kSJ3Ik4Z6oufyDlPErbBu",
+  "role": "pakar",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1657373862641"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1657450270850"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62ca9a88803f8e72dc52c53a"
+  },
+  "nama": "Gusman Wijaya, S.Kom",
+  "email": "gusman.w.jaya@gmail.com",
+  "password": "$2a$10$IMZxgdsUJ/G52.iQmanHhO0pQhCoeJTY2W1tc6xI/RwPoUgoWzqxW",
+  "role": "petani",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1657445000909"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1657445693346"
+    }
+  },
+  "__v": 0
+}]

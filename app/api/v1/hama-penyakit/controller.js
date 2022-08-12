@@ -21,7 +21,12 @@ module.exports = {
       }
 
       const data = await HamaPenyakit.find(condition)
-        .select("_id kode nama foto deskripsi")
+        .select("_id kode nama foto solusi deskripsi")
+        .populate({
+          path: "solusi",
+          select: "_id kode solusi",
+          model: "Solusi",
+        })
         .limit(limit)
         .skip(limit * (page - 1));
 
@@ -41,9 +46,13 @@ module.exports = {
   },
   getForSelect: async (req, res, next) => {
     try {
-      const data = await HamaPenyakit.find().select(
-        "_id kode nama foto deskripsi"
-      );
+      const data = await HamaPenyakit.find()
+        .select("_id kode nama foto solusi deskripsi")
+        .populate({
+          path: "solusi",
+          select: "_id kode solusi",
+          model: "Solusi",
+        });
 
       res.status(StatusCodes.OK).json({
         statusCode: StatusCodes.OK,
@@ -58,9 +67,13 @@ module.exports = {
     try {
       const { id: hamaPenyakitId } = req.params;
 
-      const data = await HamaPenyakit.findOne({ _id: hamaPenyakitId }).select(
-        "_id kode nama foto deskripsi"
-      );
+      const data = await HamaPenyakit.findOne({ _id: hamaPenyakitId })
+        .select("_id kode nama foto solusi deskripsi")
+        .populate({
+          path: "solusi",
+          select: "_id kode solusi",
+          model: "Solusi",
+        });
 
       if (!data)
         throw new CustomError.NotFound(
@@ -78,7 +91,7 @@ module.exports = {
   },
   create: async (req, res, next) => {
     try {
-      const { kode, nama, deskripsi } = req.body;
+      const { kode, nama, deskripsi, solusi } = req.body;
 
       const checkKode = await HamaPenyakit.findOne({ kode }).select("kode");
       if (checkKode)
@@ -99,6 +112,7 @@ module.exports = {
           kode,
           nama,
           deskripsi,
+          solusi: JSON.parse(solusi),
         });
       } else {
         data = new HamaPenyakit({
@@ -106,6 +120,7 @@ module.exports = {
           nama,
           foto: req.file.filename,
           deskripsi,
+          solusi: JSON.parse(solusi),
         });
       }
 
@@ -123,7 +138,7 @@ module.exports = {
   update: async (req, res, next) => {
     try {
       const { id: hamaPenyakitId } = req.params;
-      const { kode, nama, deskripsi } = req.body;
+      const { kode, nama, deskripsi, solusi } = req.body;
 
       const checkKode = await HamaPenyakit.findOne({
         _id: {
@@ -158,6 +173,7 @@ module.exports = {
         data.kode = kode;
         data.nama = nama;
         data.deskripsi = deskripsi;
+        data.solusi = JSON.parse(solusi);
       } else {
         const currentImage = `${config.rootPath}/public/uploads/hama-penyakit/${data.foto}`;
 
@@ -169,6 +185,7 @@ module.exports = {
         data.nama = nama;
         data.foto = req.file.filename;
         data.deskripsi = deskripsi;
+        data.solusi = JSON.parse(solusi);
       }
 
       await data.save();

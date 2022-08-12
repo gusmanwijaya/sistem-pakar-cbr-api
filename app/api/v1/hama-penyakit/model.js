@@ -13,6 +13,12 @@ const hamaPenyakitSchema = mongoose.Schema(
     deskripsi: {
       type: String,
     },
+    solusi: [
+      {
+        type: mongoose.Schema.Types.ObjectId,
+        ref: "Solusi",
+      },
+    ],
     foto: {
       type: String,
     },

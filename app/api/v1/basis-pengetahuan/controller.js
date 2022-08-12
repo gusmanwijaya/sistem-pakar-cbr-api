@@ -8,7 +8,7 @@ module.exports = {
       const { page = 1, limit = 10 } = req.query;
 
       const data = await BasisPengetahuan.find()
-        .select("_id hamaPenyakit gejala solusi")
+        .select("_id hamaPenyakit gejala")
         .limit(limit)
         .skip(limit * (page - 1))
         .populate({
@@ -20,11 +20,6 @@ module.exports = {
           path: "gejala",
           select: "_id kode nama bobot",
           model: "Gejala",
-        })
-        .populate({
-          path: "solusi",
-          select: "_id kode solusi",
-          model: "Solusi",
         });
 
       const count = await BasisPengetahuan.countDocuments();
@@ -46,7 +41,7 @@ module.exports = {
       const { id: basisPengetahuanId } = req.params;
 
       const data = await BasisPengetahuan.findOne({ _id: basisPengetahuanId })
-        .select("_id hamaPenyakit gejala solusi")
+        .select("_id hamaPenyakit gejala")
         .populate({
           path: "hamaPenyakit",
           select: "_id kode nama deskripsi foto",
@@ -56,11 +51,6 @@ module.exports = {
           path: "gejala",
           select: "_id kode nama bobot",
           model: "Gejala",
-        })
-        .populate({
-          path: "solusi",
-          select: "_id kode solusi",
-          model: "Solusi",
         });
 
       if (!data)
@@ -79,12 +69,11 @@ module.exports = {
   },
   create: async (req, res, next) => {
     try {
-      const { hamaPenyakit, gejala, solusi } = req.body;
+      const { hamaPenyakit, gejala } = req.body;
 
       const data = new BasisPengetahuan({
         hamaPenyakit,
         gejala: JSON.parse(gejala),
-        solusi: JSON.parse(solusi),
       });
       await data.save();
 
@@ -100,7 +89,7 @@ module.exports = {
   update: async (req, res, next) => {
     try {
       const { id: basisPengetahuanId } = req.params;
-      const { hamaPenyakit, gejala, solusi } = req.body;
+      const { hamaPenyakit, gejala } = req.body;
 
       let data = await BasisPengetahuan.findOne({ _id: basisPengetahuanId });
 
@@ -111,7 +100,6 @@ module.exports = {
 
       data.hamaPenyakit = hamaPenyakit;
       data.gejala = JSON.parse(gejala);
-      data.solusi = JSON.parse(solusi);
       await data.save();
 
       res.status(StatusCodes.OK).json({

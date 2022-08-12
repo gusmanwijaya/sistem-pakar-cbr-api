@@ -3,6 +3,7 @@ const CustomError = require("../../../../app/error");
 const HamaPenyakit = require("../hama-penyakit/model");
 const Gejala = require("../gejala/model");
 const Solusi = require("../solusi/model");
+const BasisPengetahuan = require("../basis-pengetahuan/model");
 
 module.exports = {
   getAll: async (req, res, next) => {
@@ -10,6 +11,7 @@ module.exports = {
       const hamaPenyakit = await HamaPenyakit.countDocuments();
       const gejala = await Gejala.countDocuments();
       const solusi = await Solusi.countDocuments();
+      const basisPengetahuan = await BasisPengetahuan.countDocuments();
 
       res.status(StatusCodes.OK).json({
         statusCode: StatusCodes.OK,
@@ -18,6 +20,7 @@ module.exports = {
           hamaPenyakit,
           gejala,
           solusi,
+          basisPengetahuan,
         },
       });
     } catch (error) {
