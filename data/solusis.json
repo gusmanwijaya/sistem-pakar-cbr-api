@@ -1,221 +1,748 @@
 [{
   "_id": {
-    "$oid": "62f4eec05dc9976988debe8b"
+    "$oid": "62f76742d5dae9ff07500ce1"
   },
   "kode": "S1",
+  "solusi": "Melakukan pangkas pemeliharaan secara berkala 3-4 kali dalam setahun untuk mengurangi kelembaban dan meningkatkan masuknya cahaya matahari ke lahan pertanaman",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1660380994169"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1660380994169"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f7674ad5dae9ff07500ce8"
+  },
+  "kode": "S2",
+  "solusi": "Melakukan pemupukan berimbang (N, P dan K dengan dosis sesuai anjuran) atau pupuk organik yang ditaburkan di sekeliling tanaman ± 50 cm dari tanaman",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1660381002241"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1660381002241"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f76754d5dae9ff07500cef"
+  },
+  "kode": "S3",
+  "solusi": "Melakukan panen sering dengan interval 4-7 hari sekali yang diikuti dengan sanitasi. Buah yang dipanen dibawa ke tempat penampungan hasil dan buah segera dibelah dan diambil bijinya",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1660381012762"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1660381012762"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f7675ed5dae9ff07500cf6"
+  },
+  "kode": "S4",
   "solusi": "Melakukan sanitasi kebun",
   "createdAt": {
     "$date": {
-      "$numberLong": "1660219072647"
+      "$numberLong": "1660381022967"
     }
   },
   "updatedAt": {
     "$date": {
-      "$numberLong": "1660219072647"
+      "$numberLong": "1660381022967"
     }
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "62f4eed45dc9976988debe92"
+    "$oid": "62f76769d5dae9ff07500cfd"
   },
-  "kode": "S2",
-  "solusi": "Menggunakan pemangsa alami seperti Kumbang tanah, kumbang kalajengking, capung dan kepik leher.",
+  "kode": "S5",
+  "solusi": "Melakukan penyarungan buah dengan kantong plastik pada buah muda berukuran 8-15 cm. Dasar kantong plastik dibiarkan terbuka sebagai ventilasi untuk mengatur kelembaban buah yang disarungi",
   "createdAt": {
     "$date": {
-      "$numberLong": "1660219092086"
+      "$numberLong": "1660381033013"
     }
   },
   "updatedAt": {
     "$date": {
-      "$numberLong": "1660219092086"
+      "$numberLong": "1660381033013"
     }
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "62f4eee45dc9976988debe99"
+    "$oid": "62f76773d5dae9ff07500d04"
   },
-  "kode": "S3",
+  "kode": "S6",
+  "solusi": "Memanfaatkan semut hitam sebagai musuh alami imago PBK. Untuk meningkatkan populasi semut hitam perlu dibuat sarang dari lipatan daun kelapa atau daun kakao, dan digantungkan di cabang",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1660381043125"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1660381043125"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f7677dd5dae9ff07500d0b"
+  },
+  "kode": "S7",
+  "solusi": "Aplikasi MS APH dengan cara infus akar untuk meningkatkan vigor tanaman",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1660381053431"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1660381053431"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f76786d5dae9ff07500d12"
+  },
+  "kode": "S8",
+  "solusi": "Melakukan peremajaan atau rehabilitasi kebun yang sudah rusak dengan menanam atau sambung samping dengan klon kakao yang toleran PBK dengan ciri kulit buah tanpa/sedikit alur, mengkilap, licin dan keras",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1660381062929"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1660381062929"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f7678fd5dae9ff07500d19"
+  },
+  "kode": "S9",
+  "solusi": "Penggunaan insektidida sebagai alternative terakhir dan dalam kondisi eksplosi, serta dilakukan secara bijaksana",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1660381071574"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1660381071574"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f7679cd5dae9ff07500d20"
+  },
+  "kode": "S10",
+  "solusi": "Pemanfaatan semut hitam (Dolichoderus thoracicus), untuk 15 meningkatkan populasi semut perlu di pasang sarang buatan yang dibuat dari daun kakao kering atau daun kelapa yang diletakkan pada bagian jorget atau cabang",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1660381084964"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1660381084964"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f767a5d5dae9ff07500d27"
+  },
+  "kode": "S11",
+  "solusi": "Pemanfaatan APH Beauveria bassiana dosis 1-1,5 kg biakan padat/ha atau 50-100 gr spora/ha dengan volume semprot 500 l/ha",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1660381093853"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1660381093853"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f767afd5dae9ff07500d30"
+  },
+  "kode": "S12",
+  "solusi": "Aplikasi MS dengan cara infus akar, untuk meningkatkan vigor tanaman",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1660381103424"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1660381103424"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f767b7d5dae9ff07500d37"
+  },
+  "kode": "S13",
+  "solusi": "Penyemprotan pestisida nabati (ekstrak daun: mimba, tembakau, babadotan dan sirsak, dll) dengan konsentrasi 2,5-5%",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1660381111864"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1660381111864"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f767c1d5dae9ff07500d3e"
+  },
+  "kode": "S14",
+  "solusi": "Penyemprotan insektisida kimia merupakan pilihan terakhir jika intensitas serangan Helopeltis sp. berat. Insektisida yang digunakan berbahan aktif antara lain sipermetrin, BPMC, dan MIPC yang sudah terdaftar dan mendapat izin dari Menteri Pertanian",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1660381121865"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1660381121865"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f767cad5dae9ff07500d45"
+  },
+  "kode": "S15",
+  "solusi": "Memotong cabang yang terserang pada jarak 10 cm dari lubang gerekan, kemudian dimusnahkan",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1660381130786"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1660381130786"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f767d5d5dae9ff07500d4c"
+  },
+  "kode": "S16",
+  "solusi": "Aplikasi Beauveria bassiana dengan kerapatan spora 106 spora/ml ke dalam lubang gerekan menggunakan alat semprot tangan kemudian lubang ditutup",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1660381141525"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1660381141525"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f767ded5dae9ff07500d53"
+  },
+  "kode": "S17",
+  "solusi": "Aplikasi MS APH dengan cara infus akar, untuk meningkatkan vigor tanaman",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1660381150250"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1660381150250"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f767e6d5dae9ff07500d5a"
+  },
+  "kode": "S18",
+  "solusi": "Memangkas cabang yang terserang dan memusnahkan larva/pupa yang ada di dalamnya",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1660381158869"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1660381158869"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f767efd5dae9ff07500d61"
+  },
+  "kode": "S19",
+  "solusi": "Menggunakan pemangsa alami seperti laba-laba, semut dan Dengan parasit Exoresta uadrimaculata, Tricholyga psychidarum",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1660381167305"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1660381176685"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f76806d5dae9ff07500d6f"
+  },
+  "kode": "S20",
+  "solusi": "Gunakan insektisida racun perut, Dipterex dan Thuricide. 50cc/10 liter air",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1660381190120"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1660381190120"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f76813d5dae9ff07500d76"
+  },
+  "kode": "S21",
+  "solusi": "Memasang perangkap di tempat yang dilalui tupai",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1660381203223"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1660381203223"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f76820d5dae9ff07500d7f"
+  },
+  "kode": "S22",
+  "solusi": "Menggunakan burung hantu (Tyto alba)",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1660381216314"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1660381216314"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f7682bd5dae9ff07500d86"
+  },
+  "kode": "S23",
+  "solusi": "Menggunakan pemangsa alami seperti Kumbang tanah, kumbang kalajengking, capung dan kepik leher",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1660381227263"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1660381227263"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f76837d5dae9ff07500d8d"
+  },
+  "kode": "S24",
   "solusi": "Menggunakan insektisida berbahan aktif monokrotofas, fosfamidon, karbaril",
   "createdAt": {
     "$date": {
-      "$numberLong": "1660219108339"
+      "$numberLong": "1660381239526"
     }
   },
   "updatedAt": {
     "$date": {
-      "$numberLong": "1660219108339"
+      "$numberLong": "1660381239526"
     }
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "62f4ef025dc9976988debea0"
+    "$oid": "62f768e9d5dae9ff07500d94"
   },
-  "kode": "S4",
-  "solusi": "Pangkasan sanitasi dilakukan dengan cara memotong ranting sakit sampai batas gejala garis coklat pada xylem ditambah 30-40cm di bawahnya",
+  "kode": "S25",
+  "solusi": "Sanitasi dengan memetik semua buah busuk yang dilakukan bersamaan dengan pemangkasan ataupun saat panen, dan mengambil yang jatuh dikumpulkan kemudian dikubur sedalam minimal 30 cm",
   "createdAt": {
     "$date": {
-      "$numberLong": "1660219138897"
+      "$numberLong": "1660381417196"
     }
   },
   "updatedAt": {
     "$date": {
-      "$numberLong": "1660219138897"
+      "$numberLong": "1660381417196"
     }
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "62f4ef0e5dc9976988debea7"
+    "$oid": "62f768f2d5dae9ff07500d9b"
   },
-  "kode": "S5",
-  "solusi": "Sambung samping menggunakan klon yang toleran, misalnya Sulawesi 1, Sulawesi 2, ICCRI 03, ICCRI 04",
+  "kode": "S26",
+  "solusi": "Pemangkasan tanaman kakao dan pohon pelindung untuk mengurangi kelembaban kebun",
   "createdAt": {
     "$date": {
-      "$numberLong": "1660219150232"
+      "$numberLong": "1660381426167"
     }
   },
   "updatedAt": {
     "$date": {
-      "$numberLong": "1660219150232"
+      "$numberLong": "1660381426167"
     }
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "62f4ef1c5dc9976988debeae"
+    "$oid": "62f768fbd5dae9ff07500da2"
   },
-  "kode": "S6",
-  "solusi": "Eradikasi, dengan pembongkaran tanaman yang terserang berat dan berumur tua, diikuti dengan penanaman kembali (replanting) menggunakan klon toleran VSD",
+  "kode": "S27",
+  "solusi": "Menyemprotkan Jamur Trichoderma spp. pada buah kakao sehat sebagai tindakan preventif dengan dosis 2kg/ha biakan padat dengan volume semprot 500 l/ha",
   "createdAt": {
     "$date": {
-      "$numberLong": "1660219164421"
+      "$numberLong": "1660381435371"
     }
   },
   "updatedAt": {
     "$date": {
-      "$numberLong": "1660219164421"
+      "$numberLong": "1660381435371"
     }
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "62f4ef265dc9976988debeb5"
+    "$oid": "62f76904d5dae9ff07500da9"
   },
-  "kode": "S7",
-  "solusi": "Pada pembenihan diberi atap daun kelapa atau plastik untuk mencegah agar spora tidak jatuh menginfeksi benih dan memusnahkan benih yang terserang",
-  "createdAt": {
-    "$date": {
-      "$numberLong": "1660219174606"
-    }
-  },
-  "updatedAt": {
-    "$date": {
-      "$numberLong": "1660219174606"
-    }
-  },
-  "__v": 0
-},{
-  "_id": {
-    "$oid": "62f4ef335dc9976988debebc"
-  },
-  "kode": "S8",
-  "solusi": "Penyemprotan fungisida yang sudah terdaftar dan mendapat izin Menteri Pertanian, golongan triazole pada daun-daun muda (flush) sebagai tindakan preventif dengan konsentrasi 0,2%",
-  "createdAt": {
-    "$date": {
-      "$numberLong": "1660219187034"
-    }
-  },
-  "updatedAt": {
-    "$date": {
-      "$numberLong": "1660219187034"
-    }
-  },
-  "__v": 0
-},{
-  "_id": {
-    "$oid": "62f4ef3d5dc9976988debec3"
-  },
-  "kode": "S9",
-  "solusi": "Aplikasi MS APH dengan infus batang dan akar, untuk meningkatkan vigor tanaman",
-  "createdAt": {
-    "$date": {
-      "$numberLong": "1660219197336"
-    }
-  },
-  "updatedAt": {
-    "$date": {
-      "$numberLong": "1660219197336"
-    }
-  },
-  "__v": 0
-},{
-  "_id": {
-    "$oid": "62f4ef635dc9976988debeca"
-  },
-  "kode": "S10",
-  "solusi": "Tanaman yang telah mati akibat serangan jamur akar harus dibongkar berikut akar-akarnya sampai bersih. Akar-akar tersebut dikumpulkan di dalam lubang bekas bongkaran kemudian dimusnahkan",
-  "createdAt": {
-    "$date": {
-      "$numberLong": "1660219235385"
-    }
-  },
-  "updatedAt": {
-    "$date": {
-      "$numberLong": "1660219235385"
-    }
-  },
-  "__v": 0
-},{
-  "_id": {
-    "$oid": "62f4ef705dc9976988debed1"
-  },
-  "kode": "S11",
-  "solusi": "Pada lubang bekas bongkaran diberi belerang sebanyak 300 g. Lubang tersebut dibiarkan selama sekitar satu tahun baru dapat ditanami kembali. Tanaman selain yang tumbuh di sekitar kebun atau pohon penaung yang terserang jamur akar juga dibongkar apabila telah mati atau menunjukkan gejala infeksi berat",
-  "createdAt": {
-    "$date": {
-      "$numberLong": "1660219248362"
-    }
-  },
-  "updatedAt": {
-    "$date": {
-      "$numberLong": "1660219248362"
-    }
-  },
-  "__v": 0
-},{
-  "_id": {
-    "$oid": "62f4ef7f5dc9976988debeda"
-  },
-  "kode": "S12",
-  "solusi": "Aplikasi APH Trichoderma pada tanaman disekitar tanaman terserang",
-  "createdAt": {
-    "$date": {
-      "$numberLong": "1660219263298"
-    }
-  },
-  "updatedAt": {
-    "$date": {
-      "$numberLong": "1660219263298"
-    }
-  },
-  "__v": 0
-},{
-  "_id": {
-    "$oid": "62f4ef8a5dc9976988debee1"
-  },
-  "kode": "S13",
+  "kode": "S28",
   "solusi": "Aplikasi MS APH, untuk meningkatkan vigor tanaman",
   "createdAt": {
     "$date": {
-      "$numberLong": "1660219274552"
+      "$numberLong": "1660381444537"
     }
   },
   "updatedAt": {
     "$date": {
-      "$numberLong": "1660219274552"
+      "$numberLong": "1660381444537"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f7690ed5dae9ff07500db0"
+  },
+  "kode": "S29",
+  "solusi": "Menanam varietas atau klon toleran seperti: DRC 16 atau yang berproduksi tinggi (ICCRI 03, ICCRI 04, BL 50 atau klon unggul lokal)",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1660381454067"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1660381454067"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f76916d5dae9ff07500db7"
+  },
+  "kode": "S30",
+  "solusi": "Pangkasan sanitasi dilakukan dengan cara memotong ranting sakit sampai batas gejala garis coklat pada xylem ditambah 30-40cm di bawahnya",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1660381462671"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1660381462671"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f7691fd5dae9ff07500dbe"
+  },
+  "kode": "S31",
+  "solusi": "Sambung samping menggunakan klon yang toleran, misalnya Sulawesi 1, Sulawesi 2, ICCRI 03, ICCRI 04",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1660381471573"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1660381471573"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f7692ad5dae9ff07500dc7"
+  },
+  "kode": "S32",
+  "solusi": "Eradikasi, dengan pembongkaran tanaman yang terserang berat dan berumur tua, diikuti dengan penanaman kembali (replanting) menggunakan klon toleran VSD",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1660381482198"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1660381482198"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f76932d5dae9ff07500dce"
+  },
+  "kode": "S33",
+  "solusi": "Pada pembenihan diberi atap daun kelapa atau plastik untuk mencegah agar spora tidak jatuh menginfeksi benih dan memusnahkan benih yang terserang",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1660381490946"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1660381490946"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f7693bd5dae9ff07500dd5"
+  },
+  "kode": "S34",
+  "solusi": "Penyemprotan fungisida yang sudah terdaftar dan mendapat izin Menteri Pertanian, golongan triazole pada daun-daun muda (flush) sebagai tindakan preventif dengan konsentrasi 0,2%",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1660381499685"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1660381499685"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f76944d5dae9ff07500ddc"
+  },
+  "kode": "S35",
+  "solusi": "Aplikasi MS APH dengan infus batang dan akar, untuk meningkatkan vigor tanaman",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1660381508261"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1660381508261"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f7694ed5dae9ff07500de3"
+  },
+  "kode": "S36",
+  "solusi": "Tanaman yang telah mati akibat serangan jamur akar harus dibongkar berikut akar-akarnya sampai bersih. Akar-akar tersebut dikumpulkan di dalam lubang bekas bongkaran kemudian dimusnahkan",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1660381518522"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1660381518522"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f7695bd5dae9ff07500dea"
+  },
+  "kode": "S37",
+  "solusi": "Pada lubang bekas bongkaran diberi belerang sebanyak 300 g. Lubang tersebut dibiarkan selama sekitar satu tahun baru dapat ditanami kembali. Tanaman selain yang tumbuh di sekitar kebun atau pohon penaung yang terserang jamur akar juga dibongkar apabila telah mati atau menunjukkan gejala infeksi berat",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1660381531235"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1660381531235"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f76963d5dae9ff07500df1"
+  },
+  "kode": "S38",
+  "solusi": "Aplikasi APH Trichoderma pada tanaman disekitar tanaman terserang",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1660381539542"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1660381539542"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f7699ad5dae9ff07500e03"
+  },
+  "kode": "S39",
+  "solusi": "Pada intensitas penyakit berat, perlu dilakukan pemupukan melalui daun. Pemupukan dapat dilakukan sedini mungkin yaitu pada saat tunas mulai pecah/membuka",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1660381594664"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1660381594664"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f769a6d5dae9ff07500e0a"
+  },
+  "kode": "S40",
+  "solusi": "Penanaman pohon penaung untuk menjaga kelembapan mikroklimat kebun, seperti lamtoro",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1660381606340"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1660381606340"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f769bcd5dae9ff07500e16"
+  },
+  "kode": "S41",
+  "solusi": "Eradikasi dengan pembongkaran tanaman yang terinfeksi berat",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1660381628382"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1660381628382"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f769d2d5dae9ff07500e22"
+  },
+  "kode": "S42",
+  "solusi": "Penyemprotan fungisida yang sudah terdaftar dan mendapat izin Menteri Pertanian, berbahan aktif karbendazim, dengan konsentrasi 0,2% dengan interval waktu 7 hari sebagai tindakan preventif. Penyemprotan fungisida pada saat pembentukan daun-daun baru setelah mencapai 10% dengan daun pertama berumur ± 1 minggu",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1660381650381"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1660381650381"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f769dfd5dae9ff07500e2b"
+  },
+  "kode": "S43",
+  "solusi": "Mengupas kulit batang yang membusuk sampai batas yang sehat (jaringan berwarna putih), kemudian diolesi dengan asap cair, arang, fungisida yang sudah terdaftar dan mendapat izin Menteri Pertanian, berbahan aktif tembaga konsentrasi 5%. Apabila infeksi sudah melingkari batang, tanaman tersebut dipotong atau dibongkar",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1660381663988"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1660381663988"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f769e9d5dae9ff07500e32"
+  },
+  "kode": "S44",
+  "solusi": "Aplikasi MS APH dengan infus  akar/batang, untuk meningkatkan vigor tanaman",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1660381673659"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1660381673659"
     }
   },
   "__v": 0

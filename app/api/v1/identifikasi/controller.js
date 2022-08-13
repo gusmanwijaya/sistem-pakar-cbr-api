@@ -255,7 +255,11 @@ module.exports = {
           jumlahGejalaDipilih: value?.jumlahGejalaDipilih || "-",
           bobotGejalaSama: value?.bobotGejalaSama || "-",
           bobotGejalaKasus: value?.bobotGejalaKasus || "-",
-          similarity: value?.bobotGejalaSama / value?.bobotGejalaKasus,
+          similarity:
+            (value?.bobotGejalaSama / value?.bobotGejalaKasus).toString()
+              .length > 4
+              ? (value?.bobotGejalaSama / value?.bobotGejalaKasus).toFixed(2)
+              : value?.bobotGejalaSama / value?.bobotGejalaKasus,
           similarityPersen: `${
             (
               (value?.bobotGejalaSama / value?.bobotGejalaKasus) *

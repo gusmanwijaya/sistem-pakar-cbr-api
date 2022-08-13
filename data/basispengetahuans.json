@@ -1,132 +1,546 @@
 [{
   "_id": {
-    "$oid": "62f4f1a15dc9976988debf37"
+    "$oid": "62f76d0bd5dae9ff07500ee1"
   },
   "hamaPenyakit": {
-    "$oid": "62c9868badc521328f3e462f"
+    "$oid": "62f76a32d5dae9ff07500e3c"
   },
   "gejala": [
     {
-      "$oid": "62f4ec6c5dc9976988debdcc"
+      "$oid": "62f75ee9d5dae9ff07500b02"
     },
     {
-      "$oid": "62f4ec7a5dc9976988debdd3"
+      "$oid": "62f7608cd5dae9ff07500b09"
     },
     {
-      "$oid": "62f4ec875dc9976988debdda"
-    },
-    {
-      "$oid": "62f4ec935dc9976988debde1"
-    },
-    {
-      "$oid": "62f4eca65dc9976988debde8"
-    },
-    {
-      "$oid": "62f4ecb55dc9976988debdef"
-    },
-    {
-      "$oid": "62f4ecc45dc9976988debdf6"
-    },
-    {
-      "$oid": "62f4ece65dc9976988debdfd"
-    },
-    {
-      "$oid": "62f4ecf35dc9976988debe04"
-    },
-    {
-      "$oid": "62f4ed005dc9976988debe0b"
-    },
-    {
-      "$oid": "62f4ed155dc9976988debe12"
+      "$oid": "62f760c6d5dae9ff07500b17"
     }
   ],
-  "solusi": [],
   "createdAt": {
     "$date": {
-      "$numberLong": "1660219809460"
+      "$numberLong": "1660382475363"
     }
   },
   "updatedAt": {
     "$date": {
-      "$numberLong": "1660219809460"
+      "$numberLong": "1660382475363"
     }
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "62f4f2115dc9976988debf40"
+    "$oid": "62f76d23d5dae9ff07500eea"
   },
   "hamaPenyakit": {
-    "$oid": "62c986a1adc521328f3e4633"
+    "$oid": "62f76a7bd5dae9ff07500e46"
   },
   "gejala": [
     {
-      "$oid": "62f4ed4d5dc9976988debe23"
+      "$oid": "62f760e0d5dae9ff07500b25"
     },
     {
-      "$oid": "62f4ed5e5dc9976988debe2a"
+      "$oid": "62f7610fd5dae9ff07500b33"
     },
     {
-      "$oid": "62f4ed6a5dc9976988debe31"
+      "$oid": "62f7623fd5dae9ff07500b54"
     },
     {
-      "$oid": "62f4ed7a5dc9976988debe38"
+      "$oid": "62f76257d5dae9ff07500b5d"
     },
     {
-      "$oid": "62f4ed8d5dc9976988debe3f"
+      "$oid": "62f76263d5dae9ff07500b64"
+    },
+    {
+      "$oid": "62f763d7d5dae9ff07500bc1"
+    },
+    {
+      "$oid": "62f76478d5dae9ff07500be4"
+    },
+    {
+      "$oid": "62f764a9d5dae9ff07500bf4"
     }
   ],
-  "solusi": [],
   "createdAt": {
     "$date": {
-      "$numberLong": "1660219921102"
+      "$numberLong": "1660382499946"
     }
   },
   "updatedAt": {
     "$date": {
-      "$numberLong": "1660219921102"
+      "$numberLong": "1660382499946"
     }
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "62f4f30d5dc9976988debf49"
+    "$oid": "62f76d35d5dae9ff07500ef3"
   },
   "hamaPenyakit": {
-    "$oid": "62f4f0c05dc9976988debf10"
+    "$oid": "62f76a9dd5dae9ff07500e50"
   },
   "gejala": [
     {
-      "$oid": "62f4edac5dc9976988debe46"
+      "$oid": "62f763d7d5dae9ff07500bc1"
     },
     {
-      "$oid": "62f4ed6a5dc9976988debe31"
+      "$oid": "62f76439d5dae9ff07500bcf"
     },
     {
-      "$oid": "62f4edd65dc9976988debe4f"
+      "$oid": "62f7649ed5dae9ff07500bed"
     },
     {
-      "$oid": "62f4ed7a5dc9976988debe38"
-    },
-    {
-      "$oid": "62f4edf95dc9976988debe58"
-    },
-    {
-      "$oid": "62f4ee085dc9976988debe5f"
-    },
-    {
-      "$oid": "62f4ed8d5dc9976988debe3f"
+      "$oid": "62f764c1d5dae9ff07500bfb"
     }
   ],
-  "solusi": [],
   "createdAt": {
     "$date": {
-      "$numberLong": "1660220173408"
+      "$numberLong": "1660382517723"
     }
   },
   "updatedAt": {
     "$date": {
-      "$numberLong": "1660220173408"
+      "$numberLong": "1660382517723"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f76d55d5dae9ff07500efc"
+  },
+  "hamaPenyakit": {
+    "$oid": "62f76ac2d5dae9ff07500e5a"
+  },
+  "gejala": [
+    {
+      "$oid": "62f760d1d5dae9ff07500b1e"
+    },
+    {
+      "$oid": "62f76121d5dae9ff07500b3a"
+    },
+    {
+      "$oid": "62f76231d5dae9ff07500b4d"
+    },
+    {
+      "$oid": "62f7623fd5dae9ff07500b54"
+    },
+    {
+      "$oid": "62f7626fd5dae9ff07500b6b"
+    },
+    {
+      "$oid": "62f7627cd5dae9ff07500b72"
+    },
+    {
+      "$oid": "62f762ffd5dae9ff07500b79"
+    },
+    {
+      "$oid": "62f7630dd5dae9ff07500b80"
+    },
+    {
+      "$oid": "62f76337d5dae9ff07500b95"
+    },
+    {
+      "$oid": "62f76395d5dae9ff07500ba3"
+    },
+    {
+      "$oid": "62f763d7d5dae9ff07500bc1"
+    }
+  ],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1660382549265"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1660382549265"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f76d68d5dae9ff07500f05"
+  },
+  "hamaPenyakit": {
+    "$oid": "62f76b1ad5dae9ff07500e64"
+  },
+  "gejala": [
+    {
+      "$oid": "62f76104d5dae9ff07500b2c"
+    },
+    {
+      "$oid": "62f76318d5dae9ff07500b87"
+    },
+    {
+      "$oid": "62f76328d5dae9ff07500b8e"
+    },
+    {
+      "$oid": "62f76346d5dae9ff07500b9c"
+    },
+    {
+      "$oid": "62f763a2d5dae9ff07500baa"
+    }
+  ],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1660382568799"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1660382568799"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f76d7cd5dae9ff07500f0e"
+  },
+  "hamaPenyakit": {
+    "$oid": "62f76b3ad5dae9ff07500e6e"
+  },
+  "gejala": [
+    {
+      "$oid": "62f763b1d5dae9ff07500bb1"
+    },
+    {
+      "$oid": "62f76425d5dae9ff07500bc8"
+    },
+    {
+      "$oid": "62f7644cd5dae9ff07500bd6"
+    },
+    {
+      "$oid": "62f76461d5dae9ff07500bdd"
+    }
+  ],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1660382588600"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1660382588600"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f76d90d5dae9ff07500f17"
+  },
+  "hamaPenyakit": {
+    "$oid": "62f76b5ed5dae9ff07500e78"
+  },
+  "gejala": [
+    {
+      "$oid": "62f760a1d5dae9ff07500b10"
+    },
+    {
+      "$oid": "62f763bcd5dae9ff07500bb8"
+    },
+    {
+      "$oid": "62f763d7d5dae9ff07500bc1"
+    },
+    {
+      "$oid": "62f76425d5dae9ff07500bc8"
+    },
+    {
+      "$oid": "62f76439d5dae9ff07500bcf"
+    },
+    {
+      "$oid": "62f76461d5dae9ff07500bdd"
+    }
+  ],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1660382608794"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1660382608794"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f76dacd5dae9ff07500f20"
+  },
+  "hamaPenyakit": {
+    "$oid": "62f76b94d5dae9ff07500e82"
+  },
+  "gejala": [
+    {
+      "$oid": "62f764ccd5dae9ff07500c02"
+    },
+    {
+      "$oid": "62f764e1d5dae9ff07500c09"
+    },
+    {
+      "$oid": "62f764edd5dae9ff07500c10"
+    },
+    {
+      "$oid": "62f76690d5dae9ff07500c80"
+    }
+  ],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1660382636257"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1660382636257"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f76dc9d5dae9ff07500f29"
+  },
+  "hamaPenyakit": {
+    "$oid": "62f76bc2d5dae9ff07500e8c"
+  },
+  "gejala": [
+    {
+      "$oid": "62f76532d5dae9ff07500c2c"
+    },
+    {
+      "$oid": "62f7653ad5dae9ff07500c35"
+    },
+    {
+      "$oid": "62f76629d5dae9ff07500c58"
+    },
+    {
+      "$oid": "62f766aed5dae9ff07500c90"
+    },
+    {
+      "$oid": "62f76728d5dae9ff07500cd8"
+    }
+  ],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1660382665754"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1660382665754"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f76ddfd5dae9ff07500f32"
+  },
+  "hamaPenyakit": {
+    "$oid": "62f76c1ad5dae9ff07500e9f"
+  },
+  "gejala": [
+    {
+      "$oid": "62f766d8d5dae9ff07500ca5"
+    },
+    {
+      "$oid": "62f7671cd5dae9ff07500cd1"
+    },
+    {
+      "$oid": "62f76728d5dae9ff07500cd8"
+    }
+  ],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1660382687828"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1660382687828"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f76df1d5dae9ff07500f3b"
+  },
+  "hamaPenyakit": {
+    "$oid": "62f76c44d5dae9ff07500ea9"
+  },
+  "gejala": [
+    {
+      "$oid": "62f766e3d5dae9ff07500cac"
+    },
+    {
+      "$oid": "62f76704d5dae9ff07500cc1"
+    },
+    {
+      "$oid": "62f76710d5dae9ff07500cc8"
+    },
+    {
+      "$oid": "62f7671cd5dae9ff07500cd1"
+    },
+    {
+      "$oid": "62f76728d5dae9ff07500cd8"
+    }
+  ],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1660382705940"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1660382705940"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f76e09d5dae9ff07500f48"
+  },
+  "hamaPenyakit": {
+    "$oid": "62f76c5dd5dae9ff07500eb3"
+  },
+  "gejala": [
+    {
+      "$oid": "62f766d8d5dae9ff07500ca5"
+    },
+    {
+      "$oid": "62f766eed5dae9ff07500cb3"
+    },
+    {
+      "$oid": "62f7671cd5dae9ff07500cd1"
+    },
+    {
+      "$oid": "62f76728d5dae9ff07500cd8"
+    }
+  ],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1660382729225"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1660382729225"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f76e25d5dae9ff07500f51"
+  },
+  "hamaPenyakit": {
+    "$oid": "62f76c7fd5dae9ff07500ebd"
+  },
+  "gejala": [
+    {
+      "$oid": "62f7651cd5dae9ff07500c25"
+    },
+    {
+      "$oid": "62f76629d5dae9ff07500c58"
+    },
+    {
+      "$oid": "62f766a2d5dae9ff07500c89"
+    },
+    {
+      "$oid": "62f766aed5dae9ff07500c90"
+    },
+    {
+      "$oid": "62f766bcd5dae9ff07500c97"
+    },
+    {
+      "$oid": "62f766cad5dae9ff07500c9e"
+    },
+    {
+      "$oid": "62f76728d5dae9ff07500cd8"
+    }
+  ],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1660382757801"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1660382757801"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f76e3dd5dae9ff07500f5a"
+  },
+  "hamaPenyakit": {
+    "$oid": "62f76cb0d5dae9ff07500ec7"
+  },
+  "gejala": [
+    {
+      "$oid": "62f764ccd5dae9ff07500c02"
+    },
+    {
+      "$oid": "62f76545d5dae9ff07500c3c"
+    },
+    {
+      "$oid": "62f76554d5dae9ff07500c43"
+    },
+    {
+      "$oid": "62f76562d5dae9ff07500c4a"
+    },
+    {
+      "$oid": "62f76571d5dae9ff07500c51"
+    },
+    {
+      "$oid": "62f76629d5dae9ff07500c58"
+    },
+    {
+      "$oid": "62f76637d5dae9ff07500c5f"
+    },
+    {
+      "$oid": "62f76647d5dae9ff07500c66"
+    },
+    {
+      "$oid": "62f76684d5dae9ff07500c79"
+    }
+  ],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1660382781373"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1660382781373"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f76e58d5dae9ff07500f63"
+  },
+  "hamaPenyakit": {
+    "$oid": "62f76cd4d5dae9ff07500ed1"
+  },
+  "gejala": [
+    {
+      "$oid": "62f764f7d5dae9ff07500c17"
+    },
+    {
+      "$oid": "62f7650ed5dae9ff07500c1e"
+    },
+    {
+      "$oid": "62f766f9d5dae9ff07500cba"
+    },
+    {
+      "$oid": "62f76728d5dae9ff07500cd8"
+    }
+  ],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1660382808876"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1660382808876"
     }
   },
   "__v": 0
