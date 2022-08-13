@@ -1,0 +1,1207 @@
+[{
+  "_id": {
+    "$oid": "62f74c60c9cfd1794dfa53f5"
+  },
+  "user": {
+    "$oid": "62ca9a88803f8e72dc52c53a"
+  },
+  "date": "August 13 2022, 02:01:52 pm",
+  "selectedGejala": [
+    {
+      "_id": {
+        "$oid": "62f4ec6c5dc9976988debdcc"
+      },
+      "kode": "G1",
+      "nama": "Batang/cabang yang ditusuk akan layu, kering dan mati",
+      "bobot": 2
+    },
+    {
+      "_id": {
+        "$oid": "62f4ec875dc9976988debdda"
+      },
+      "kode": "G3",
+      "nama": "Ranting dan pucuk menjadi layu, mati dan terdapat koloni berwarna putih",
+      "bobot": 3
+    },
+    {
+      "_id": {
+        "$oid": "62f4eca65dc9976988debde8"
+      },
+      "kode": "G5",
+      "nama": "Terdapat gumpalan putih pada bawah daun",
+      "bobot": 3
+    },
+    {
+      "_id": {
+        "$oid": "62f4ecc45dc9976988debdf6"
+      },
+      "kode": "G7",
+      "nama": "Pucuk daun kakao kerdil, terperintir dan keriput",
+      "bobot": 2
+    },
+    {
+      "_id": {
+        "$oid": "62f4ecf35dc9976988debe04"
+      },
+      "kode": "G9",
+      "nama": "Terdapat koloni putih kapas pada tunas baru dan kematian pucuk daun",
+      "bobot": 3
+    },
+    {
+      "_id": {
+        "$oid": "62f4edd65dc9976988debe4f"
+      },
+      "kode": "G18",
+      "nama": "Terbentuk miselium tipis (seperti sarang laba-laba) pada percabangan yang mengkilat seperti sutera atau perak",
+      "bobot": 3
+    },
+    {
+      "_id": {
+        "$oid": "62f4fc055dc9976988debffa"
+      },
+      "kode": "G22",
+      "nama": "Adanya bintik-bintik cokelat pada daun muda",
+      "bobot": 3
+    },
+    {
+      "_id": {
+        "$oid": "62f4fcbd5dc9976988dec013"
+      },
+      "kode": "G25",
+      "nama": "Buah muda layu dan timbul bintik-bintik cokelat",
+      "bobot": 3
+    }
+  ],
+  "allPenyakitnGejala": [
+    {
+      "_id": {
+        "$oid": "62f4f1a15dc9976988debf37"
+      },
+      "hamaPenyakit": {
+        "_id": {
+          "$oid": "62c9868badc521328f3e462f"
+        },
+        "kode": "H1",
+        "nama": "Kutu Putih",
+        "deskripsi": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of \"de Finibus Bonorum et Malorum\" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, \"Lorem ipsum dolor sit amet..\", comes from a line in section 1.10.32.",
+        "foto": "2022-07-09T13:45:47.327Z-Picture1.png",
+        "solusi": [
+          {
+            "$oid": "62f4eec05dc9976988debe8b"
+          },
+          {
+            "$oid": "62f4eed45dc9976988debe92"
+          },
+          {
+            "$oid": "62f4eee45dc9976988debe99"
+          }
+        ]
+      },
+      "gejala": [
+        {
+          "_id": {
+            "$oid": "62f4ec6c5dc9976988debdcc"
+          },
+          "kode": "G1",
+          "nama": "Batang/cabang yang ditusuk akan layu, kering dan mati",
+          "bobot": 2
+        },
+        {
+          "_id": {
+            "$oid": "62f4ec7a5dc9976988debdd3"
+          },
+          "kode": "G2",
+          "nama": "Buah muda mengering dan rontok",
+          "bobot": 3
+        },
+        {
+          "_id": {
+            "$oid": "62f4ec875dc9976988debdda"
+          },
+          "kode": "G3",
+          "nama": "Ranting dan pucuk menjadi layu, mati dan terdapat koloni berwarna putih",
+          "bobot": 3
+        },
+        {
+          "_id": {
+            "$oid": "62f4ec935dc9976988debde1"
+          },
+          "kode": "G4",
+          "nama": "Bentuk buah tidak sempurna",
+          "bobot": 2
+        },
+        {
+          "_id": {
+            "$oid": "62f4eca65dc9976988debde8"
+          },
+          "kode": "G5",
+          "nama": "Terdapat gumpalan putih pada bawah daun",
+          "bobot": 3
+        },
+        {
+          "_id": {
+            "$oid": "62f4ecb55dc9976988debdef"
+          },
+          "kode": "G6",
+          "nama": "Bagian bawah daun dan buah menjadi hitam berbentuk jelaga",
+          "bobot": 2
+        },
+        {
+          "_id": {
+            "$oid": "62f4ecc45dc9976988debdf6"
+          },
+          "kode": "G7",
+          "nama": "Pucuk daun kakao kerdil, terperintir dan keriput",
+          "bobot": 2
+        },
+        {
+          "_id": {
+            "$oid": "62f4ece65dc9976988debdfd"
+          },
+          "kode": "G8",
+          "nama": "Pertumbuhan tunas, bunga dan buah tidak normal",
+          "bobot": 2
+        },
+        {
+          "_id": {
+            "$oid": "62f4ecf35dc9976988debe04"
+          },
+          "kode": "G9",
+          "nama": "Terdapat koloni putih kapas pada tunas baru dan kematian pucuk daun",
+          "bobot": 3
+        },
+        {
+          "_id": {
+            "$oid": "62f4ed005dc9976988debe0b"
+          },
+          "kode": "G10",
+          "nama": "Pucuk tanaman kakao gundul",
+          "bobot": 1
+        },
+        {
+          "_id": {
+            "$oid": "62f4ed155dc9976988debe12"
+          },
+          "kode": "G11",
+          "nama": "Menyerang buah yang masih muda",
+          "bobot": 2
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "62f4f2115dc9976988debf40"
+      },
+      "hamaPenyakit": {
+        "_id": {
+          "$oid": "62c986a1adc521328f3e4633"
+        },
+        "kode": "H2",
+        "nama": "Pembuluh Kayu",
+        "deskripsi": "Deskripsi untuk pembuluh kayu",
+        "solusi": [
+          {
+            "$oid": "62f4ef025dc9976988debea0"
+          },
+          {
+            "$oid": "62f4ef0e5dc9976988debea7"
+          },
+          {
+            "$oid": "62f4ef1c5dc9976988debeae"
+          },
+          {
+            "$oid": "62f4ef265dc9976988debeb5"
+          },
+          {
+            "$oid": "62f4ef335dc9976988debebc"
+          },
+          {
+            "$oid": "62f4ef3d5dc9976988debec3"
+          }
+        ]
+      },
+      "gejala": [
+        {
+          "_id": {
+            "$oid": "62f4ed4d5dc9976988debe23"
+          },
+          "kode": "G12",
+          "nama": "Mati pucuk",
+          "bobot": 3
+        },
+        {
+          "_id": {
+            "$oid": "62f4ed5e5dc9976988debe2a"
+          },
+          "kode": "G13",
+          "nama": "Daun menguning dengan bercak-bercak hijau pada seri daun ke-2 atau ke-3 dari ujung ranting",
+          "bobot": 3
+        },
+        {
+          "_id": {
+            "$oid": "62f4ed6a5dc9976988debe31"
+          },
+          "kode": "G14",
+          "nama": "Kerontokan pada daun muda",
+          "bobot": 2
+        },
+        {
+          "_id": {
+            "$oid": "62f4ed7a5dc9976988debe38"
+          },
+          "kode": "G15",
+          "nama": "Adanya kumpulan hifa pada percabangan",
+          "bobot": 2
+        },
+        {
+          "_id": {
+            "$oid": "62f4ed8d5dc9976988debe3f"
+          },
+          "kode": "G16",
+          "nama": "Daun menguning dan layu",
+          "bobot": 2
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "62f4f30d5dc9976988debf49"
+      },
+      "hamaPenyakit": {
+        "_id": {
+          "$oid": "62f4f0c05dc9976988debf10"
+        },
+        "kode": "H3",
+        "nama": "Jamur Upas",
+        "deskripsi": "Deskripsi untuk penyakit jamur upas",
+        "solusi": [
+          {
+            "$oid": "62f4ef635dc9976988debeca"
+          },
+          {
+            "$oid": "62f4ef705dc9976988debed1"
+          },
+          {
+            "$oid": "62f4ef7f5dc9976988debeda"
+          },
+          {
+            "$oid": "62f4ef8a5dc9976988debee1"
+          }
+        ]
+      },
+      "gejala": [
+        {
+          "_id": {
+            "$oid": "62f4edac5dc9976988debe46"
+          },
+          "kode": "G17",
+          "nama": "Lapisan bawah kulit batang yang terserang membusuk dan berwarna merah anggur",
+          "bobot": 3
+        },
+        {
+          "_id": {
+            "$oid": "62f4ed6a5dc9976988debe31"
+          },
+          "kode": "G14",
+          "nama": "Kerontokan pada daun muda",
+          "bobot": 2
+        },
+        {
+          "_id": {
+            "$oid": "62f4edd65dc9976988debe4f"
+          },
+          "kode": "G18",
+          "nama": "Terbentuk miselium tipis (seperti sarang laba-laba) pada percabangan yang mengkilat seperti sutera atau perak",
+          "bobot": 3
+        },
+        {
+          "_id": {
+            "$oid": "62f4ed7a5dc9976988debe38"
+          },
+          "kode": "G15",
+          "nama": "Adanya kumpulan hifa pada percabangan",
+          "bobot": 2
+        },
+        {
+          "_id": {
+            "$oid": "62f4edf95dc9976988debe58"
+          },
+          "kode": "G19",
+          "nama": "Adanya kerak berwarna merah pada percabangan",
+          "bobot": 3
+        },
+        {
+          "_id": {
+            "$oid": "62f4ee085dc9976988debe5f"
+          },
+          "kode": "G20",
+          "nama": "Adanya kerak berwarna merah tua pada percabangan, biasanya pada sisi yang lebih kering",
+          "bobot": 2
+        },
+        {
+          "_id": {
+            "$oid": "62f4ed8d5dc9976988debe3f"
+          },
+          "kode": "G16",
+          "nama": "Daun menguning dan layu",
+          "bobot": 2
+        }
+      ]
+    }
+  ],
+  "processData": [
+    {
+      "hamaPenyakit": "Kutu Putih",
+      "jumlahGejalaSama": 5,
+      "jumlahGejalaKasus": 11,
+      "jumlahGejalaDipilih": 8,
+      "bobotGejalaSama": 13,
+      "bobotGejalaKasus": 25,
+      "similarity": 0.52,
+      "similarityPersen": "52%"
+    },
+    {
+      "hamaPenyakit": "Jamur Upas",
+      "jumlahGejalaSama": 1,
+      "jumlahGejalaKasus": 7,
+      "jumlahGejalaDipilih": 8,
+      "bobotGejalaSama": 3,
+      "bobotGejalaKasus": 17,
+      "similarity": 0.17647058823529413,
+      "similarityPersen": "17.65%"
+    },
+    {
+      "hamaPenyakit": "Pembuluh Kayu",
+      "jumlahGejalaSama": "-",
+      "jumlahGejalaKasus": 5,
+      "jumlahGejalaDipilih": 8,
+      "bobotGejalaSama": "-",
+      "bobotGejalaKasus": 12,
+      "similarity": 0,
+      "similarityPersen": "0%"
+    }
+  ],
+  "detailPenyakit": {
+    "_id": {
+      "$oid": "62c9868badc521328f3e462f"
+    },
+    "kode": "H1",
+    "nama": "Kutu Putih",
+    "deskripsi": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of \"de Finibus Bonorum et Malorum\" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, \"Lorem ipsum dolor sit amet..\", comes from a line in section 1.10.32.",
+    "foto": "2022-07-09T13:45:47.327Z-Picture1.png",
+    "solusi": [
+      {
+        "_id": {
+          "$oid": "62f4eec05dc9976988debe8b"
+        },
+        "kode": "S1",
+        "solusi": "Melakukan sanitasi kebun"
+      },
+      {
+        "_id": {
+          "$oid": "62f4eed45dc9976988debe92"
+        },
+        "kode": "S2",
+        "solusi": "Menggunakan pemangsa alami seperti Kumbang tanah, kumbang kalajengking, capung dan kepik leher."
+      },
+      {
+        "_id": {
+          "$oid": "62f4eee45dc9976988debe99"
+        },
+        "kode": "S3",
+        "solusi": "Menggunakan insektisida berbahan aktif monokrotofas, fosfamidon, karbaril"
+      }
+    ]
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f758bac9cfd1794dfa5549"
+  },
+  "user": {
+    "$oid": "62ca9a88803f8e72dc52c53a"
+  },
+  "date": "August 13 2022, 02:54:34 pm",
+  "selectedGejala": [
+    {
+      "_id": {
+        "$oid": "62f4edac5dc9976988debe46"
+      },
+      "kode": "G17",
+      "nama": "Lapisan bawah kulit batang yang terserang membusuk dan berwarna merah anggur",
+      "bobot": 3
+    },
+    {
+      "_id": {
+        "$oid": "62f4edd65dc9976988debe4f"
+      },
+      "kode": "G18",
+      "nama": "Terbentuk miselium tipis (seperti sarang laba-laba) pada percabangan yang mengkilat seperti sutera atau perak",
+      "bobot": 3
+    },
+    {
+      "_id": {
+        "$oid": "62f4edf95dc9976988debe58"
+      },
+      "kode": "G19",
+      "nama": "Adanya kerak berwarna merah pada percabangan",
+      "bobot": 3
+    },
+    {
+      "_id": {
+        "$oid": "62f4ee085dc9976988debe5f"
+      },
+      "kode": "G20",
+      "nama": "Adanya kerak berwarna merah tua pada percabangan, biasanya pada sisi yang lebih kering",
+      "bobot": 2
+    },
+    {
+      "_id": {
+        "$oid": "62f4f5c55dc9976988debf66"
+      },
+      "kode": "G21",
+      "nama": "Muncul tepung berwarna putih pada permukaan buah",
+      "bobot": 2
+    },
+    {
+      "_id": {
+        "$oid": "62f4fc055dc9976988debffa"
+      },
+      "kode": "G22",
+      "nama": "Adanya bintik-bintik cokelat pada daun muda",
+      "bobot": 3
+    }
+  ],
+  "allPenyakitnGejala": [
+    {
+      "_id": {
+        "$oid": "62f4f1a15dc9976988debf37"
+      },
+      "hamaPenyakit": {
+        "_id": {
+          "$oid": "62c9868badc521328f3e462f"
+        },
+        "kode": "H1",
+        "nama": "Kutu Putih",
+        "deskripsi": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of \"de Finibus Bonorum et Malorum\" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, \"Lorem ipsum dolor sit amet..\", comes from a line in section 1.10.32.",
+        "foto": "2022-07-09T13:45:47.327Z-Picture1.png",
+        "solusi": [
+          {
+            "$oid": "62f4eec05dc9976988debe8b"
+          },
+          {
+            "$oid": "62f4eed45dc9976988debe92"
+          },
+          {
+            "$oid": "62f4eee45dc9976988debe99"
+          }
+        ]
+      },
+      "gejala": [
+        {
+          "_id": {
+            "$oid": "62f4ec6c5dc9976988debdcc"
+          },
+          "kode": "G1",
+          "nama": "Batang/cabang yang ditusuk akan layu, kering dan mati",
+          "bobot": 2
+        },
+        {
+          "_id": {
+            "$oid": "62f4ec7a5dc9976988debdd3"
+          },
+          "kode": "G2",
+          "nama": "Buah muda mengering dan rontok",
+          "bobot": 3
+        },
+        {
+          "_id": {
+            "$oid": "62f4ec875dc9976988debdda"
+          },
+          "kode": "G3",
+          "nama": "Ranting dan pucuk menjadi layu, mati dan terdapat koloni berwarna putih",
+          "bobot": 3
+        },
+        {
+          "_id": {
+            "$oid": "62f4ec935dc9976988debde1"
+          },
+          "kode": "G4",
+          "nama": "Bentuk buah tidak sempurna",
+          "bobot": 2
+        },
+        {
+          "_id": {
+            "$oid": "62f4eca65dc9976988debde8"
+          },
+          "kode": "G5",
+          "nama": "Terdapat gumpalan putih pada bawah daun",
+          "bobot": 3
+        },
+        {
+          "_id": {
+            "$oid": "62f4ecb55dc9976988debdef"
+          },
+          "kode": "G6",
+          "nama": "Bagian bawah daun dan buah menjadi hitam berbentuk jelaga",
+          "bobot": 2
+        },
+        {
+          "_id": {
+            "$oid": "62f4ecc45dc9976988debdf6"
+          },
+          "kode": "G7",
+          "nama": "Pucuk daun kakao kerdil, terperintir dan keriput",
+          "bobot": 2
+        },
+        {
+          "_id": {
+            "$oid": "62f4ece65dc9976988debdfd"
+          },
+          "kode": "G8",
+          "nama": "Pertumbuhan tunas, bunga dan buah tidak normal",
+          "bobot": 2
+        },
+        {
+          "_id": {
+            "$oid": "62f4ecf35dc9976988debe04"
+          },
+          "kode": "G9",
+          "nama": "Terdapat koloni putih kapas pada tunas baru dan kematian pucuk daun",
+          "bobot": 3
+        },
+        {
+          "_id": {
+            "$oid": "62f4ed005dc9976988debe0b"
+          },
+          "kode": "G10",
+          "nama": "Pucuk tanaman kakao gundul",
+          "bobot": 1
+        },
+        {
+          "_id": {
+            "$oid": "62f4ed155dc9976988debe12"
+          },
+          "kode": "G11",
+          "nama": "Menyerang buah yang masih muda",
+          "bobot": 2
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "62f4f2115dc9976988debf40"
+      },
+      "hamaPenyakit": {
+        "_id": {
+          "$oid": "62c986a1adc521328f3e4633"
+        },
+        "kode": "H2",
+        "nama": "Pembuluh Kayu",
+        "deskripsi": "Deskripsi untuk pembuluh kayu",
+        "solusi": [
+          {
+            "$oid": "62f4ef025dc9976988debea0"
+          },
+          {
+            "$oid": "62f4ef0e5dc9976988debea7"
+          },
+          {
+            "$oid": "62f4ef1c5dc9976988debeae"
+          },
+          {
+            "$oid": "62f4ef265dc9976988debeb5"
+          },
+          {
+            "$oid": "62f4ef335dc9976988debebc"
+          },
+          {
+            "$oid": "62f4ef3d5dc9976988debec3"
+          }
+        ]
+      },
+      "gejala": [
+        {
+          "_id": {
+            "$oid": "62f4ed4d5dc9976988debe23"
+          },
+          "kode": "G12",
+          "nama": "Mati pucuk",
+          "bobot": 3
+        },
+        {
+          "_id": {
+            "$oid": "62f4ed5e5dc9976988debe2a"
+          },
+          "kode": "G13",
+          "nama": "Daun menguning dengan bercak-bercak hijau pada seri daun ke-2 atau ke-3 dari ujung ranting",
+          "bobot": 3
+        },
+        {
+          "_id": {
+            "$oid": "62f4ed6a5dc9976988debe31"
+          },
+          "kode": "G14",
+          "nama": "Kerontokan pada daun muda",
+          "bobot": 2
+        },
+        {
+          "_id": {
+            "$oid": "62f4ed7a5dc9976988debe38"
+          },
+          "kode": "G15",
+          "nama": "Adanya kumpulan hifa pada percabangan",
+          "bobot": 2
+        },
+        {
+          "_id": {
+            "$oid": "62f4ed8d5dc9976988debe3f"
+          },
+          "kode": "G16",
+          "nama": "Daun menguning dan layu",
+          "bobot": 2
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "62f4f30d5dc9976988debf49"
+      },
+      "hamaPenyakit": {
+        "_id": {
+          "$oid": "62f4f0c05dc9976988debf10"
+        },
+        "kode": "H3",
+        "nama": "Jamur Upas",
+        "deskripsi": "Deskripsi untuk penyakit jamur upas",
+        "solusi": [
+          {
+            "$oid": "62f4ef635dc9976988debeca"
+          },
+          {
+            "$oid": "62f4ef705dc9976988debed1"
+          },
+          {
+            "$oid": "62f4ef7f5dc9976988debeda"
+          },
+          {
+            "$oid": "62f4ef8a5dc9976988debee1"
+          }
+        ]
+      },
+      "gejala": [
+        {
+          "_id": {
+            "$oid": "62f4edac5dc9976988debe46"
+          },
+          "kode": "G17",
+          "nama": "Lapisan bawah kulit batang yang terserang membusuk dan berwarna merah anggur",
+          "bobot": 3
+        },
+        {
+          "_id": {
+            "$oid": "62f4ed6a5dc9976988debe31"
+          },
+          "kode": "G14",
+          "nama": "Kerontokan pada daun muda",
+          "bobot": 2
+        },
+        {
+          "_id": {
+            "$oid": "62f4edd65dc9976988debe4f"
+          },
+          "kode": "G18",
+          "nama": "Terbentuk miselium tipis (seperti sarang laba-laba) pada percabangan yang mengkilat seperti sutera atau perak",
+          "bobot": 3
+        },
+        {
+          "_id": {
+            "$oid": "62f4ed7a5dc9976988debe38"
+          },
+          "kode": "G15",
+          "nama": "Adanya kumpulan hifa pada percabangan",
+          "bobot": 2
+        },
+        {
+          "_id": {
+            "$oid": "62f4edf95dc9976988debe58"
+          },
+          "kode": "G19",
+          "nama": "Adanya kerak berwarna merah pada percabangan",
+          "bobot": 3
+        },
+        {
+          "_id": {
+            "$oid": "62f4ee085dc9976988debe5f"
+          },
+          "kode": "G20",
+          "nama": "Adanya kerak berwarna merah tua pada percabangan, biasanya pada sisi yang lebih kering",
+          "bobot": 2
+        },
+        {
+          "_id": {
+            "$oid": "62f4ed8d5dc9976988debe3f"
+          },
+          "kode": "G16",
+          "nama": "Daun menguning dan layu",
+          "bobot": 2
+        }
+      ]
+    }
+  ],
+  "processData": [
+    {
+      "hamaPenyakit": "Jamur Upas",
+      "jumlahGejalaSama": 4,
+      "jumlahGejalaKasus": 7,
+      "jumlahGejalaDipilih": 6,
+      "bobotGejalaSama": 11,
+      "bobotGejalaKasus": 17,
+      "similarity": 0.6470588235294118,
+      "similarityPersen": "64.71%"
+    },
+    {
+      "hamaPenyakit": "Kutu Putih",
+      "jumlahGejalaSama": "-",
+      "jumlahGejalaKasus": 11,
+      "jumlahGejalaDipilih": 6,
+      "bobotGejalaSama": "-",
+      "bobotGejalaKasus": 25,
+      "similarity": 0,
+      "similarityPersen": "0%"
+    },
+    {
+      "hamaPenyakit": "Pembuluh Kayu",
+      "jumlahGejalaSama": "-",
+      "jumlahGejalaKasus": 5,
+      "jumlahGejalaDipilih": 6,
+      "bobotGejalaSama": "-",
+      "bobotGejalaKasus": 12,
+      "similarity": 0,
+      "similarityPersen": "0%"
+    }
+  ],
+  "detailPenyakit": {
+    "_id": {
+      "$oid": "62f4f0c05dc9976988debf10"
+    },
+    "kode": "H3",
+    "nama": "Jamur Upas",
+    "deskripsi": "Deskripsi untuk penyakit jamur upas",
+    "solusi": [
+      {
+        "_id": {
+          "$oid": "62f4ef635dc9976988debeca"
+        },
+        "kode": "S10",
+        "solusi": "Tanaman yang telah mati akibat serangan jamur akar harus dibongkar berikut akar-akarnya sampai bersih. Akar-akar tersebut dikumpulkan di dalam lubang bekas bongkaran kemudian dimusnahkan"
+      },
+      {
+        "_id": {
+          "$oid": "62f4ef705dc9976988debed1"
+        },
+        "kode": "S11",
+        "solusi": "Pada lubang bekas bongkaran diberi belerang sebanyak 300 g. Lubang tersebut dibiarkan selama sekitar satu tahun baru dapat ditanami kembali. Tanaman selain yang tumbuh di sekitar kebun atau pohon penaung yang terserang jamur akar juga dibongkar apabila telah mati atau menunjukkan gejala infeksi berat"
+      },
+      {
+        "_id": {
+          "$oid": "62f4ef7f5dc9976988debeda"
+        },
+        "kode": "S12",
+        "solusi": "Aplikasi APH Trichoderma pada tanaman disekitar tanaman terserang"
+      },
+      {
+        "_id": {
+          "$oid": "62f4ef8a5dc9976988debee1"
+        },
+        "kode": "S13",
+        "solusi": "Aplikasi MS APH, untuk meningkatkan vigor tanaman"
+      }
+    ]
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f759d9c9cfd1794dfa556a"
+  },
+  "user": {
+    "$oid": "62f6756b2657fd5665eba1f5"
+  },
+  "date": "August 13 2022, 02:59:21 pm",
+  "selectedGejala": [
+    {
+      "_id": {
+        "$oid": "62f4ec6c5dc9976988debdcc"
+      },
+      "kode": "G1",
+      "nama": "Batang/cabang yang ditusuk akan layu, kering dan mati",
+      "bobot": 2
+    },
+    {
+      "_id": {
+        "$oid": "62f4ec875dc9976988debdda"
+      },
+      "kode": "G3",
+      "nama": "Ranting dan pucuk menjadi layu, mati dan terdapat koloni berwarna putih",
+      "bobot": 3
+    },
+    {
+      "_id": {
+        "$oid": "62f4eca65dc9976988debde8"
+      },
+      "kode": "G5",
+      "nama": "Terdapat gumpalan putih pada bawah daun",
+      "bobot": 3
+    },
+    {
+      "_id": {
+        "$oid": "62f4ecc45dc9976988debdf6"
+      },
+      "kode": "G7",
+      "nama": "Pucuk daun kakao kerdil, terperintir dan keriput",
+      "bobot": 2
+    }
+  ],
+  "allPenyakitnGejala": [
+    {
+      "_id": {
+        "$oid": "62f4f1a15dc9976988debf37"
+      },
+      "hamaPenyakit": {
+        "_id": {
+          "$oid": "62c9868badc521328f3e462f"
+        },
+        "kode": "H1",
+        "nama": "Kutu Putih",
+        "deskripsi": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of \"de Finibus Bonorum et Malorum\" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, \"Lorem ipsum dolor sit amet..\", comes from a line in section 1.10.32.",
+        "foto": "2022-07-09T13:45:47.327Z-Picture1.png",
+        "solusi": [
+          {
+            "$oid": "62f4eec05dc9976988debe8b"
+          },
+          {
+            "$oid": "62f4eed45dc9976988debe92"
+          },
+          {
+            "$oid": "62f4eee45dc9976988debe99"
+          }
+        ]
+      },
+      "gejala": [
+        {
+          "_id": {
+            "$oid": "62f4ec6c5dc9976988debdcc"
+          },
+          "kode": "G1",
+          "nama": "Batang/cabang yang ditusuk akan layu, kering dan mati",
+          "bobot": 2
+        },
+        {
+          "_id": {
+            "$oid": "62f4ec7a5dc9976988debdd3"
+          },
+          "kode": "G2",
+          "nama": "Buah muda mengering dan rontok",
+          "bobot": 3
+        },
+        {
+          "_id": {
+            "$oid": "62f4ec875dc9976988debdda"
+          },
+          "kode": "G3",
+          "nama": "Ranting dan pucuk menjadi layu, mati dan terdapat koloni berwarna putih",
+          "bobot": 3
+        },
+        {
+          "_id": {
+            "$oid": "62f4ec935dc9976988debde1"
+          },
+          "kode": "G4",
+          "nama": "Bentuk buah tidak sempurna",
+          "bobot": 2
+        },
+        {
+          "_id": {
+            "$oid": "62f4eca65dc9976988debde8"
+          },
+          "kode": "G5",
+          "nama": "Terdapat gumpalan putih pada bawah daun",
+          "bobot": 3
+        },
+        {
+          "_id": {
+            "$oid": "62f4ecb55dc9976988debdef"
+          },
+          "kode": "G6",
+          "nama": "Bagian bawah daun dan buah menjadi hitam berbentuk jelaga",
+          "bobot": 2
+        },
+        {
+          "_id": {
+            "$oid": "62f4ecc45dc9976988debdf6"
+          },
+          "kode": "G7",
+          "nama": "Pucuk daun kakao kerdil, terperintir dan keriput",
+          "bobot": 2
+        },
+        {
+          "_id": {
+            "$oid": "62f4ece65dc9976988debdfd"
+          },
+          "kode": "G8",
+          "nama": "Pertumbuhan tunas, bunga dan buah tidak normal",
+          "bobot": 2
+        },
+        {
+          "_id": {
+            "$oid": "62f4ecf35dc9976988debe04"
+          },
+          "kode": "G9",
+          "nama": "Terdapat koloni putih kapas pada tunas baru dan kematian pucuk daun",
+          "bobot": 3
+        },
+        {
+          "_id": {
+            "$oid": "62f4ed005dc9976988debe0b"
+          },
+          "kode": "G10",
+          "nama": "Pucuk tanaman kakao gundul",
+          "bobot": 1
+        },
+        {
+          "_id": {
+            "$oid": "62f4ed155dc9976988debe12"
+          },
+          "kode": "G11",
+          "nama": "Menyerang buah yang masih muda",
+          "bobot": 2
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "62f4f2115dc9976988debf40"
+      },
+      "hamaPenyakit": {
+        "_id": {
+          "$oid": "62c986a1adc521328f3e4633"
+        },
+        "kode": "H2",
+        "nama": "Pembuluh Kayu",
+        "deskripsi": "Deskripsi untuk pembuluh kayu",
+        "solusi": [
+          {
+            "$oid": "62f4ef025dc9976988debea0"
+          },
+          {
+            "$oid": "62f4ef0e5dc9976988debea7"
+          },
+          {
+            "$oid": "62f4ef1c5dc9976988debeae"
+          },
+          {
+            "$oid": "62f4ef265dc9976988debeb5"
+          },
+          {
+            "$oid": "62f4ef335dc9976988debebc"
+          },
+          {
+            "$oid": "62f4ef3d5dc9976988debec3"
+          }
+        ]
+      },
+      "gejala": [
+        {
+          "_id": {
+            "$oid": "62f4ed4d5dc9976988debe23"
+          },
+          "kode": "G12",
+          "nama": "Mati pucuk",
+          "bobot": 3
+        },
+        {
+          "_id": {
+            "$oid": "62f4ed5e5dc9976988debe2a"
+          },
+          "kode": "G13",
+          "nama": "Daun menguning dengan bercak-bercak hijau pada seri daun ke-2 atau ke-3 dari ujung ranting",
+          "bobot": 3
+        },
+        {
+          "_id": {
+            "$oid": "62f4ed6a5dc9976988debe31"
+          },
+          "kode": "G14",
+          "nama": "Kerontokan pada daun muda",
+          "bobot": 2
+        },
+        {
+          "_id": {
+            "$oid": "62f4ed7a5dc9976988debe38"
+          },
+          "kode": "G15",
+          "nama": "Adanya kumpulan hifa pada percabangan",
+          "bobot": 2
+        },
+        {
+          "_id": {
+            "$oid": "62f4ed8d5dc9976988debe3f"
+          },
+          "kode": "G16",
+          "nama": "Daun menguning dan layu",
+          "bobot": 2
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "62f4f30d5dc9976988debf49"
+      },
+      "hamaPenyakit": {
+        "_id": {
+          "$oid": "62f4f0c05dc9976988debf10"
+        },
+        "kode": "H3",
+        "nama": "Jamur Upas",
+        "deskripsi": "Deskripsi untuk penyakit jamur upas",
+        "solusi": [
+          {
+            "$oid": "62f4ef635dc9976988debeca"
+          },
+          {
+            "$oid": "62f4ef705dc9976988debed1"
+          },
+          {
+            "$oid": "62f4ef7f5dc9976988debeda"
+          },
+          {
+            "$oid": "62f4ef8a5dc9976988debee1"
+          }
+        ]
+      },
+      "gejala": [
+        {
+          "_id": {
+            "$oid": "62f4edac5dc9976988debe46"
+          },
+          "kode": "G17",
+          "nama": "Lapisan bawah kulit batang yang terserang membusuk dan berwarna merah anggur",
+          "bobot": 3
+        },
+        {
+          "_id": {
+            "$oid": "62f4ed6a5dc9976988debe31"
+          },
+          "kode": "G14",
+          "nama": "Kerontokan pada daun muda",
+          "bobot": 2
+        },
+        {
+          "_id": {
+            "$oid": "62f4edd65dc9976988debe4f"
+          },
+          "kode": "G18",
+          "nama": "Terbentuk miselium tipis (seperti sarang laba-laba) pada percabangan yang mengkilat seperti sutera atau perak",
+          "bobot": 3
+        },
+        {
+          "_id": {
+            "$oid": "62f4ed7a5dc9976988debe38"
+          },
+          "kode": "G15",
+          "nama": "Adanya kumpulan hifa pada percabangan",
+          "bobot": 2
+        },
+        {
+          "_id": {
+            "$oid": "62f4edf95dc9976988debe58"
+          },
+          "kode": "G19",
+          "nama": "Adanya kerak berwarna merah pada percabangan",
+          "bobot": 3
+        },
+        {
+          "_id": {
+            "$oid": "62f4ee085dc9976988debe5f"
+          },
+          "kode": "G20",
+          "nama": "Adanya kerak berwarna merah tua pada percabangan, biasanya pada sisi yang lebih kering",
+          "bobot": 2
+        },
+        {
+          "_id": {
+            "$oid": "62f4ed8d5dc9976988debe3f"
+          },
+          "kode": "G16",
+          "nama": "Daun menguning dan layu",
+          "bobot": 2
+        }
+      ]
+    }
+  ],
+  "processData": [
+    {
+      "hamaPenyakit": "Kutu Putih",
+      "jumlahGejalaSama": 4,
+      "jumlahGejalaKasus": 11,
+      "jumlahGejalaDipilih": 4,
+      "bobotGejalaSama": 10,
+      "bobotGejalaKasus": 25,
+      "similarity": 0.4,
+      "similarityPersen": "40%"
+    },
+    {
+      "hamaPenyakit": "Pembuluh Kayu",
+      "jumlahGejalaSama": "-",
+      "jumlahGejalaKasus": 5,
+      "jumlahGejalaDipilih": 4,
+      "bobotGejalaSama": "-",
+      "bobotGejalaKasus": 12,
+      "similarity": 0,
+      "similarityPersen": "0%"
+    },
+    {
+      "hamaPenyakit": "Jamur Upas",
+      "jumlahGejalaSama": "-",
+      "jumlahGejalaKasus": 7,
+      "jumlahGejalaDipilih": 4,
+      "bobotGejalaSama": "-",
+      "bobotGejalaKasus": 17,
+      "similarity": 0,
+      "similarityPersen": "0%"
+    }
+  ],
+  "detailPenyakit": {
+    "_id": {
+      "$oid": "62c9868badc521328f3e462f"
+    },
+    "kode": "H1",
+    "nama": "Kutu Putih",
+    "deskripsi": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of \"de Finibus Bonorum et Malorum\" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, \"Lorem ipsum dolor sit amet..\", comes from a line in section 1.10.32.",
+    "foto": "2022-07-09T13:45:47.327Z-Picture1.png",
+    "solusi": [
+      {
+        "_id": {
+          "$oid": "62f4eec05dc9976988debe8b"
+        },
+        "kode": "S1",
+        "solusi": "Melakukan sanitasi kebun"
+      },
+      {
+        "_id": {
+          "$oid": "62f4eed45dc9976988debe92"
+        },
+        "kode": "S2",
+        "solusi": "Menggunakan pemangsa alami seperti Kumbang tanah, kumbang kalajengking, capung dan kepik leher."
+      },
+      {
+        "_id": {
+          "$oid": "62f4eee45dc9976988debe99"
+        },
+        "kode": "S3",
+        "solusi": "Menggunakan insektisida berbahan aktif monokrotofas, fosfamidon, karbaril"
+      }
+    ]
+  },
+  "__v": 0
+}]

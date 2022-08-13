@@ -1,6 +1,7 @@
 const Gejala = require("../gejala/model");
 const BasisPengetahuan = require("../basis-pengetahuan/model");
 const Identifikasi = require("./model");
+const HamaPenyakit = require("../hama-penyakit/model");
 const { StatusCodes } = require("http-status-codes");
 const CustomError = require("../../../../app/error");
 const moment = require("moment");
@@ -33,7 +34,9 @@ module.exports = {
       }
 
       const data = await Identifikasi.find(condition)
-        .select("_id user date selectedGejala allPenyakitnGejala processData")
+        .select(
+          "_id user date selectedGejala allPenyakitnGejala processData detailPenyakit"
+        )
         .populate({
           path: "user",
           select: "_id nama email role",
@@ -61,7 +64,9 @@ module.exports = {
       const { id: riwayatId } = req.params;
 
       const data = await Identifikasi.findOne({ _id: riwayatId })
-        .select("_id user date selectedGejala allPenyakitnGejala processData")
+        .select(
+          "_id user date selectedGejala allPenyakitnGejala processData detailPenyakit"
+        )
         .populate({
           path: "user",
           select: "_id nama email role",
@@ -118,8 +123,13 @@ module.exports = {
         .select("_id hamaPenyakit gejala")
         .populate({
           path: "hamaPenyakit",
-          select: "_id kode nama deskripsi foto",
+          select: "_id kode nama deskripsi foto solusi",
           model: "HamaPenyakit",
+          populate: {
+            path: "solusi",
+            select: "_id kode solusi",
+            model: "Solusi",
+          },
         })
         .populate({
           path: "gejala",
@@ -267,6 +277,14 @@ module.exports = {
       });
       // END: Proses sorting berdasarkan similarity terbesar ke terkecil
 
+      // START: Mengambil detail dari penyakit dengan nilai similarity terbesar
+      const responseDetailPenyakit = await HamaPenyakit.findOne({
+        nama: processData[0]?.hamaPenyakit,
+      })
+        .select("_id kode nama deskripsi foto solusi")
+        .populate("solusi", "_id kode solusi", "Solusi");
+      // END: Mengambil detail dari penyakit dengan nilai similarity terbesar
+
       // START: Simpan data ke database
       const data = await Identifikasi.create({
         user: req?.user?._id,
@@ -280,6 +298,7 @@ module.exports = {
             nama: value?.hamaPenyakit?.nama,
             deskripsi: value?.hamaPenyakit?.deskripsi,
             foto: value?.hamaPenyakit?.foto,
+            solusi: value?.hamaPenyakit?.solusi,
           },
           gejala: value?.gejala.map((result) => ({
             _id: result?._id,
@@ -289,6 +308,20 @@ module.exports = {
           })),
         })),
         processData,
+        detailPenyakit: {
+          _id: responseDetailPenyakit?._id,
+          kode: responseDetailPenyakit?.kode,
+          nama: responseDetailPenyakit?.nama,
+          deskripsi: responseDetailPenyakit?.deskripsi,
+          foto: responseDetailPenyakit?.foto,
+          solusi:
+            responseDetailPenyakit?.solusi?.length > 0 &&
+            responseDetailPenyakit?.solusi?.map((valSolusi) => ({
+              _id: valSolusi?._id,
+              kode: valSolusi?.kode,
+              solusi: valSolusi?.solusi,
+            })),
+        },
       });
       // END: Simpan data ke database
 

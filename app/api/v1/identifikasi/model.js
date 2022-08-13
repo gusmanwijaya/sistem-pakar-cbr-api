@@ -20,6 +20,10 @@ const identifikasiSchema = mongoose.Schema({
     type: Array,
     default: [],
   },
+  detailPenyakit: {
+    type: Object,
+    default: {},
+  },
 });
 
 module.exports = mongoose.model("Identifikasi", identifikasiSchema);
