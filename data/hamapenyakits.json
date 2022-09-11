@@ -232,7 +232,7 @@
   "_id": {
     "$oid": "62f76b94d5dae9ff07500e82"
   },
-  "kode": "H8",
+  "kode": "P1",
   "nama": "Busuk Buah Kakao",
   "deskripsi": "Deskripsi untuk Busuk Buah Kakao",
   "solusi": [
@@ -265,7 +265,7 @@
   },
   "updatedAt": {
     "$date": {
-      "$numberLong": "1660382100337"
+      "$numberLong": "1662884290775"
     }
   },
   "__v": 0
@@ -273,7 +273,7 @@
   "_id": {
     "$oid": "62f76bc2d5dae9ff07500e8c"
   },
-  "kode": "H9",
+  "kode": "P2",
   "nama": "Pembuluh Kayu",
   "deskripsi": "Deskripsi untuk Pembuluh Kayu",
   "solusi": [
@@ -306,7 +306,7 @@
   },
   "updatedAt": {
     "$date": {
-      "$numberLong": "1660382146495"
+      "$numberLong": "1662884308841"
     }
   },
   "__v": 0
@@ -314,7 +314,7 @@
   "_id": {
     "$oid": "62f76c1ad5dae9ff07500e9f"
   },
-  "kode": "H10",
+  "kode": "P3",
   "nama": "Jamur Akar Coklat",
   "deskripsi": "Deskripsi untuk Jamur Akar Coklat",
   "solusi": [
@@ -335,7 +335,7 @@
   },
   "updatedAt": {
     "$date": {
-      "$numberLong": "1660382234733"
+      "$numberLong": "1662884314837"
     }
   },
   "__v": 0
@@ -343,7 +343,7 @@
   "_id": {
     "$oid": "62f76c44d5dae9ff07500ea9"
   },
-  "kode": "H11",
+  "kode": "P4",
   "nama": "Jamur Akar Putih",
   "deskripsi": "Deskripsi untuk Jamur Akar Putih",
   "solusi": [
@@ -367,7 +367,7 @@
   },
   "updatedAt": {
     "$date": {
-      "$numberLong": "1660382276608"
+      "$numberLong": "1662884320664"
     }
   },
   "__v": 0
@@ -375,7 +375,7 @@
   "_id": {
     "$oid": "62f76c5dd5dae9ff07500eb3"
   },
-  "kode": "H12",
+  "kode": "P5",
   "nama": "Jamur Akar Merah",
   "deskripsi": "Deskripsi untuk Jamur Akar Merah",
   "solusi": [
@@ -399,7 +399,7 @@
   },
   "updatedAt": {
     "$date": {
-      "$numberLong": "1660382301286"
+      "$numberLong": "1662884331332"
     }
   },
   "__v": 0
@@ -407,7 +407,7 @@
   "_id": {
     "$oid": "62f76c7fd5dae9ff07500ebd"
   },
-  "kode": "H13",
+  "kode": "P6",
   "nama": "Jamur Upas",
   "deskripsi": "Deskripsi untuk Jamur Upas",
   "solusi": [
@@ -431,7 +431,7 @@
   },
   "updatedAt": {
     "$date": {
-      "$numberLong": "1660382335981"
+      "$numberLong": "1662884342286"
     }
   },
   "__v": 0
@@ -439,7 +439,7 @@
   "_id": {
     "$oid": "62f76cb0d5dae9ff07500ec7"
   },
-  "kode": "H14",
+  "kode": "P7",
   "nama": "Antraknose",
   "deskripsi": "Deskripsi untuk Antraknose",
   "solusi": [
@@ -469,7 +469,7 @@
   },
   "updatedAt": {
     "$date": {
-      "$numberLong": "1660382384706"
+      "$numberLong": "1662884348539"
     }
   },
   "__v": 0
@@ -477,7 +477,7 @@
   "_id": {
     "$oid": "62f76cd4d5dae9ff07500ed1"
   },
-  "kode": "H15",
+  "kode": "P8",
   "nama": "Kanker Batang",
   "deskripsi": "Deskripsi untuk Kanker Batang",
   "solusi": [
@@ -495,7 +495,7 @@
   },
   "updatedAt": {
     "$date": {
-      "$numberLong": "1660382420263"
+      "$numberLong": "1662884354668"
     }
   },
   "__v": 0
