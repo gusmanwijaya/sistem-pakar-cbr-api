@@ -45,7 +45,7 @@ module.exports = {
         .limit(limit)
         .skip(limit * (page - 1));
 
-      const count = await Identifikasi.countDocuments(condition);
+      const count = await Identifikasi.countDocuments();
 
       res.status(StatusCodes.OK).json({
         statusCode: StatusCodes.OK,
