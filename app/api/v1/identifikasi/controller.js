@@ -260,17 +260,15 @@ module.exports = {
               .length > 4
               ? (value?.bobotGejalaSama / value?.bobotGejalaKasus).toFixed(2)
               : value?.bobotGejalaSama / value?.bobotGejalaKasus,
-          similarityPersen: `${
-            (
-              (value?.bobotGejalaSama / value?.bobotGejalaKasus) *
-              100
-            ).toString().length > 4
-              ? (
-                  (value?.bobotGejalaSama / value?.bobotGejalaKasus) *
-                  100
-                ).toFixed(2)
-              : (value?.bobotGejalaSama / value?.bobotGejalaKasus) * 100
-          }%`,
+          similarityPersen:
+            (value?.bobotGejalaSama / value?.bobotGejalaKasus).toString()
+              .length > 4
+              ? parseFloat(
+                  (value?.bobotGejalaSama / value?.bobotGejalaKasus).toFixed(2)
+                ) *
+                  100 +
+                "%"
+              : (value?.bobotGejalaSama / value?.bobotGejalaKasus) * 100 + "%",
         })
       );
       // END: Proses menghitung similarity
@@ -282,8 +280,19 @@ module.exports = {
       // END: Proses sorting berdasarkan similarity terbesar ke terkecil
 
       // START: Mengambil detail dari penyakit dengan nilai similarity terbesar
-      const responseDetailPenyakit = await HamaPenyakit.findOne({
-        nama: processData[0]?.hamaPenyakit,
+      let _tempNamaHamaPenyakit = [];
+      for (let index = 0; index < processData.length; index++) {
+        const element = processData[index];
+
+        if (element?.similarity === processData[0]?.similarity) {
+          _tempNamaHamaPenyakit.push(element?.hamaPenyakit);
+        }
+      }
+
+      const responseDetailPenyakit = await HamaPenyakit.find({
+        nama: {
+          $in: _tempNamaHamaPenyakit,
+        },
       })
         .select("_id kode nama deskripsi foto solusi")
         .populate("solusi", "_id kode solusi", "Solusi");
@@ -312,20 +321,20 @@ module.exports = {
           })),
         })),
         processData,
-        detailPenyakit: {
-          _id: responseDetailPenyakit?._id,
-          kode: responseDetailPenyakit?.kode,
-          nama: responseDetailPenyakit?.nama,
-          deskripsi: responseDetailPenyakit?.deskripsi,
-          foto: responseDetailPenyakit?.foto,
+        detailPenyakit: responseDetailPenyakit.map((valueDetailPenyakit) => ({
+          _id: valueDetailPenyakit?._id,
+          kode: valueDetailPenyakit?.kode,
+          nama: valueDetailPenyakit?.nama,
+          deskripsi: valueDetailPenyakit?.deskripsi,
+          foto: valueDetailPenyakit?.foto,
           solusi:
-            responseDetailPenyakit?.solusi?.length > 0 &&
-            responseDetailPenyakit?.solusi?.map((valSolusi) => ({
+            valueDetailPenyakit?.solusi?.length > 0 &&
+            valueDetailPenyakit?.solusi?.map((valSolusi) => ({
               _id: valSolusi?._id,
               kode: valSolusi?.kode,
               solusi: valSolusi?.solusi,
             })),
-        },
+        })),
       });
       // END: Simpan data ke database
 

@@ -1,0 +1,400 @@
+[{
+  "_id": {
+    "$oid": "62c984a66f9347fa4300a9a3"
+  },
+  "nama": "Pakar",
+  "email": "pakar@gmail.com",
+  "password": "$2a$10$IwnYXKzeF8E6aKFA8HyRkulpy1Pec7A4kSJ3Ik4Z6oufyDlPErbBu",
+  "role": "pakar",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1657373862641"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1657450270850"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "632752cfea987970205b7d5b"
+  },
+  "nama": "Ria Faulina",
+  "email": "riafaulina@gmail.com",
+  "password": "$2a$10$el5mlaF3GRle.GGpi6.EDe/sgJ52KkBTM4QNKkeQ7MlQAYfO25t/.",
+  "role": "petani",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1663521487037"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1663521487037"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "632ab93ea49b594bec9e478a"
+  },
+  "nama": "Tamrin Mz",
+  "email": "tamrinmz38@gmail.com",
+  "password": "$2a$10$R4hL6ThAm.P7kytSg9jHauEcJykIk9Za8ZN229G.wylVeotBrR1VO",
+  "role": "petani",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1663744318990"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1663744318990"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "632ae2e0a49b594bec9e480b"
+  },
+  "nama": "Rosnaini",
+  "email": "rosnaini61@gmail.com",
+  "password": "$2a$10$W5lf3ljApNQStAD3JEzTeObkx7mI2MdbOq1ms4Fo6YkM3VDCE.LAq",
+  "role": "petani",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1663754976042"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1663754976042"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "632afd15a49b594bec9e4898"
+  },
+  "nama": "Riskansyah",
+  "email": "riskansyah@gmail.com",
+  "password": "$2a$10$oaae/W14E7ySrRXVvswL8OQjkQzLkFx1j.2DoEW4NSzUxogXlPOUK",
+  "role": "petani",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1663761685264"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1663761685264"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "632b18c2a49b594bec9e48ad"
+  },
+  "nama": "Rika Ota Malia",
+  "email": "Rika25@gmail.com",
+  "password": "$2a$10$5JiUgzHz.x7B7ywhJH5t8O8EKUz3e/1Htzs8FU4cKhx7n48vcwUIW",
+  "role": "petani",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1663768770255"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1663768770255"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "632b26f8a49b594bec9e48c1"
+  },
+  "nama": "Asmara Murni",
+  "email": "asmara47@gmail.com",
+  "password": "$2a$10$5do1pDn6UAH0meUIMGDZGeumqPn3aHyGYZYoMjV9B89OJa7LQrw/G",
+  "role": "petani",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1663772408516"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1663772408516"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "632b2b5ca49b594bec9e48d5"
+  },
+  "nama": "Dewita Wati",
+  "email": "dewita43@gmail.com",
+  "password": "$2a$10$vXFGCuKqxOUqRjR4rqf0fO4cqgt/cMlnIKRwURk55RwxrAIAVrbES",
+  "role": "petani",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1663773532581"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1663773532581"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "632b2d14a49b594bec9e48e9"
+  },
+  "nama": "Cahaya Murni",
+  "email": "cahaya42@gmail.com",
+  "password": "$2a$10$2hFWBj1wPWdSq0VBUyNlIOqrxYWjjfNpFpgRQJDiW/HHCEsNvLLEu",
+  "role": "petani",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1663773972218"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1663773972218"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "632b33bfa49b594bec9e4909"
+  },
+  "nama": "Deva Ferawati",
+  "email": "deva38@gmail.com",
+  "password": "$2a$10$xLGRGhSrccgO6V5XwrAgqOGpf0QTeEHwJMer/gJA5qADGS0WH7Xge",
+  "role": "petani",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1663775679362"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1663775679362"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "632b37cba49b594bec9e491e"
+  },
+  "nama": "Rere",
+  "email": "rere18@gmail.com",
+  "password": "$2a$10$3KlS0TGE2wKLqQUVUqkgcevZZUy7AIwk.WWaB5IeDZjKZfF3P1H5q",
+  "role": "petani",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1663776715107"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1663776715107"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "632b3d95a49b594bec9e4932"
+  },
+  "nama": "Rinda Ayu Lestari",
+  "email": "rinda22@gmail.com",
+  "password": "$2a$10$0LM70Gn5w7fOHppbRF7k3.250MZH.r3kw57LRE3Xsolzby2.6NFT6",
+  "role": "petani",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1663778197390"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1663778197390"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "632b4640a49b594bec9e4946"
+  },
+  "nama": "Esi Suryani",
+  "email": "esi50@gmail.com",
+  "password": "$2a$10$pC7O/LiYvmnjTHbvLxH4EuFnZxaHrXp5xTD4yHzW0tGVGhdAon.eG",
+  "role": "petani",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1663780416959"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1663780416959"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "632c139c53cb000ece31eaa5"
+  },
+  "nama": "Efriyani Asri",
+  "email": "efriyaniasri123@gmail.com",
+  "password": "$2a$10$qnj76VGaeAzWJJgTOTvpMe5a/5zxsHPU1LLGVrBu.0OfxSQlsdQFO",
+  "role": "petani",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1663832988112"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1663832988112"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "632c26134819ad066d0ee3d1"
+  },
+  "nama": "Fatmawati",
+  "email": "fatmawati@gmail.com",
+  "password": "$2a$10$JAgAgqW02/2r6rZdcIGlC.2XRrEblO/ZBuhfiC67xGqSQqtMyga6.",
+  "role": "petani",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1663837715271"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1663837715271"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "632c2c0a4819ad066d0ee3e6"
+  },
+  "nama": "Iwan",
+  "email": "iwan@gmail.com",
+  "password": "$2a$10$bje2wQYAb6EVJMVFzqgqbe3z9FapGesMBtU7KackkUZqPTRqkyCCu",
+  "role": "petani",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1663839242550"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1663839242550"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "632c34eb4819ad066d0ee3fa"
+  },
+  "nama": "Asmawati",
+  "email": "asmawati@gmail.com",
+  "password": "$2a$10$4cI5O5B/FOF9CoMjQCdhn.Gru54a/79AYiXu8KYY64jIpLQ9Cgf0q",
+  "role": "petani",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1663841515467"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1663841515467"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "632d2a6a90bfd88c92f4d63c"
+  },
+  "nama": "Endang Sudarmono",
+  "email": "endang@gmail.com",
+  "password": "$2a$10$En5AP.xjSuHa4uSlLar9k.Fwt/zYBr6DtWRwyXGmFrLk6.VAZCtee",
+  "role": "petani",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1663904362981"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1663904362981"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "632d33d490bfd88c92f4d65a"
+  },
+  "nama": "Surwija",
+  "email": "surwija@gmail.com",
+  "password": "$2a$10$4WCgRkjicdXNssnNDfKQoeBpdyyvW/Eoh2cCROvYwhenVg1KmXUO.",
+  "role": "petani",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1663906772706"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1663906772706"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "632d49cc90bfd88c92f4d677"
+  },
+  "nama": "Yeti Susanti",
+  "email": "yeti@gmail.com",
+  "password": "$2a$10$EaBIo/NZi/vkDKcAdh/wpOW6CrVvEKHFlEXNPlL8KmkJ685A5HXei",
+  "role": "petani",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1663912396241"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1663912396241"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "632d4adc90bfd88c92f4d68b"
+  },
+  "nama": "Eko Gusmiranto",
+  "email": "eko@gmail.com",
+  "password": "$2a$10$zusdSotLcC2BmWFIrJDWGuU7fHV1HXK3TOOQn9Gx1UMncI5jCSRve",
+  "role": "petani",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1663912668023"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1663912668023"
+    }
+  },
+  "__v": 0
+}]

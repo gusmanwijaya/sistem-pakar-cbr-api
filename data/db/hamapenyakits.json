@@ -1,0 +1,505 @@
+[{
+  "_id": {
+    "$oid": "62f76a32d5dae9ff07500e3c"
+  },
+  "kode": "H1",
+  "nama": "Penggerek Batang/Cabang",
+  "deskripsi": "Penggerek batang/cabang (Zeuzere Coffeae) adalah hama yang terdapat bekas gerekan pada batang/cabang dengan diameter 3-5 mm, kerusakan melingkar pada batang, batang/cabang yang digerek akan layu, kering dan mati.  Tahap serangan hama ini terjadi pada saat serangga masih dalam tahap larva. Larva Zeuzera menggali cabang dan batang tanaman, yang dapat dengan mudah mematahkan tanaman atau menghambat pertumbuhan tanaman. Ketika larva zeuzera keluar, pertumbuhan batang liang biasanya kembali normal. Namun pada serangan yang lebih parah, serangan hama ini dapat mematikan tanaman.",
+  "solusi": [
+    {
+      "$oid": "62f7677dd5dae9ff07500d0b"
+    },
+    {
+      "$oid": "62f767b7d5dae9ff07500d37"
+    },
+    {
+      "$oid": "62f767c1d5dae9ff07500d3e"
+    },
+    {
+      "$oid": "62f767cad5dae9ff07500d45"
+    }
+  ],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1660381746903"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1663741081505"
+    }
+  },
+  "__v": 1,
+  "foto": "1663741081478-hama penggerek.png"
+},{
+  "_id": {
+    "$oid": "62f76a7bd5dae9ff07500e46"
+  },
+  "kode": "H2",
+  "nama": "Kepik Penghisap Buah Kakao",
+  "deskripsi": "Hama penghisap buah kakao (Helopeltis spp) memiliki ciri-ciri gejala terdapat bercak hitam berbentuk cekung pada buah, buah menjadi tidak normal bentuk dan ukuran, bentuk buah tidak sempurna, terdapat cekungan berwarna hitam kecokelatan kecil dikulit buah, biji kakao menggumpal dan menjadi satu, menyerang buah yang masih muda, buah tampak utuh tapi biji rusak dan buah utuh namun biji tidak berkembang dan tidak dapat dipanen. ",
+  "solusi": [
+    {
+      "$oid": "62f7679cd5dae9ff07500d20"
+    },
+    {
+      "$oid": "62f767a5d5dae9ff07500d27"
+    },
+    {
+      "$oid": "62f767afd5dae9ff07500d30"
+    },
+    {
+      "$oid": "62f76773d5dae9ff07500d04"
+    },
+    {
+      "$oid": "62f7677dd5dae9ff07500d0b"
+    }
+  ],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1660381819633"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1663741120148"
+    }
+  },
+  "__v": 1,
+  "foto": "1663741120113-hama kepik penghisap.png"
+},{
+  "_id": {
+    "$oid": "62f76a9dd5dae9ff07500e50"
+  },
+  "kode": "H3",
+  "nama": "Penggerek Buah Kakao",
+  "deskripsi": "Hama penggerek buah kakao (conopomorpha cramerella atau cocoa mot) merupakan hama yang menyerang dibagian buah kakao. Hama ini memiliki ciri-ciri dengan gejala menyerang buah yang masih muda, memakan biji dan daging buah, buah utuh biji tidak berkembang dan buah utuh namun bijinya rusak dan tidak bisa di panen. ",
+  "solusi": [
+    {
+      "$oid": "62f76742d5dae9ff07500ce1"
+    },
+    {
+      "$oid": "62f7674ad5dae9ff07500ce8"
+    },
+    {
+      "$oid": "62f76754d5dae9ff07500cef"
+    },
+    {
+      "$oid": "62f76769d5dae9ff07500cfd"
+    },
+    {
+      "$oid": "62f76773d5dae9ff07500d04"
+    },
+    {
+      "$oid": "62f7677dd5dae9ff07500d0b"
+    },
+    {
+      "$oid": "62f76786d5dae9ff07500d12"
+    },
+    {
+      "$oid": "62f7678fd5dae9ff07500d19"
+    }
+  ],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1660381853113"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1663741168915"
+    }
+  },
+  "__v": 1,
+  "foto": "1663741168875-penggerek buah kakao.png"
+},{
+  "_id": {
+    "$oid": "62f76ac2d5dae9ff07500e5a"
+  },
+  "kode": "H4",
+  "nama": "Kutu Putih",
+  "deskripsi": "Hama kutu putih (planococcus citri) adalah kutu yang dapat menjadi hama dan sekaligus juga dapat menjadi alternatif pengendalian hama lainnya seperti penggerek buah kakao dan penghisap buah kakao. Ciri-ciri gejala hama kutu putih yaitu buah muda mengering dan rontok,  batang/cabang yang ditusuk akan layu, kering dan mati, ranting dan puncuk menjadi layu, mati dan terdapat koloni berwarna putih, bentuk buah sempurna, terdapat gumpalan putih pada bawah daun, bagian bawah daun dan buah menjadi hitam berbentuk jelaga, pucuk daun kakao kerdil, terperintir dan keriput, pertumbuhan tunas, bunga, dan buah tidak normal, terdapat koloni putih kapas pada tunas baru dan kematian pucuk daun, pucuk tanaman kakao gundul dan menyerang buah yang masih muda. ",
+  "solusi": [
+    {
+      "$oid": "62f7675ed5dae9ff07500cf6"
+    },
+    {
+      "$oid": "62f76806d5dae9ff07500d6f"
+    },
+    {
+      "$oid": "62f76813d5dae9ff07500d76"
+    }
+  ],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1660381890721"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1663741203119"
+    }
+  },
+  "__v": 1,
+  "foto": "1663741203101-hama kutu putih.jpg"
+},{
+  "_id": {
+    "$oid": "62f76b1ad5dae9ff07500e64"
+  },
+  "kode": "H5",
+  "nama": "Ulat Kantong",
+  "deskripsi": "Ulat kantong (Clania sp., Mahasena sp) adalah hama yang biasa menyerang daun-daun kakao hingga menyebabkan tanaman menjadi gundul. \r\nCiri-ciri gejala hama ulat kantong yaitu terdapat bercak hitam berbentuk lobang melingkar pada daun, terdapat kepompong seperti kantong di bawah daun dan buah kakao, daun-daun kakao berlobang tak beraturan pada bagian tengah daun, terdapat lubang-lubang pada daun kakao.",
+  "solusi": [
+    {
+      "$oid": "62f7675ed5dae9ff07500cf6"
+    },
+    {
+      "$oid": "62f767d5d5dae9ff07500d4c"
+    },
+    {
+      "$oid": "62f767ded5dae9ff07500d53"
+    }
+  ],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1660381978663"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1663741241812"
+    }
+  },
+  "__v": 1,
+  "foto": "1663741241799-hama ulat kantong.jpg"
+},{
+  "_id": {
+    "$oid": "62f76b3ad5dae9ff07500e6e"
+  },
+  "kode": "H6",
+  "nama": "Tupai",
+  "deskripsi": "Ciri-ciri gejala hama tupai yaitu lubang bekas gigitan rapi/teratur, menyerang buah yang sudah masak, memakan biji kakao, dan biji-biji buah yang terserang tampak berserakan.",
+  "solusi": [
+    {
+      "$oid": "62f7675ed5dae9ff07500cf6"
+    },
+    {
+      "$oid": "62f767e6d5dae9ff07500d5a"
+    },
+    {
+      "$oid": "62f767efd5dae9ff07500d61"
+    }
+  ],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1660382010176"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1663741389167"
+    }
+  },
+  "__v": 1,
+  "foto": "1663741389151-tupai.jpg"
+},{
+  "_id": {
+    "$oid": "62f76b5ed5dae9ff07500e78"
+  },
+  "kode": "H7",
+  "nama": "Tikus",
+  "deskripsi": "Ciri-ciri gelaja hama tikus yaitu lubang bekas gigitan tidak beraturan, menyerang buah yang masih muda, memakan biji dan daging buah, dan biji-biji buah yang terserang tampak berserakan.",
+  "solusi": [
+    {
+      "$oid": "62f7675ed5dae9ff07500cf6"
+    },
+    {
+      "$oid": "62f767e6d5dae9ff07500d5a"
+    },
+    {
+      "$oid": "62f767efd5dae9ff07500d61"
+    }
+  ],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1660382046428"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1663741486375"
+    }
+  },
+  "__v": 1,
+  "foto": "1663741486363-hama tikus.jpg"
+},{
+  "_id": {
+    "$oid": "62f76b94d5dae9ff07500e82"
+  },
+  "kode": "P1",
+  "nama": "Busuk Buah Kakao",
+  "deskripsi": "Ciri-ciri gejala penyakit busuk buah kakao yaitu ada bercak cokelat kehitaman dengan batas yang jelas pada buah yang dimulai dari ujung atau pangkal buah, permukaan buah menjadi busuk, basah dan berwarna cokelat kehitaman, muncul tepung berwarna putih pada permukaan buah, dan pada buah dewasa timbul bercak cokelat yang menyeluruh menutupi buah dan buah mengerut pada bagian ujungnya.",
+  "solusi": [
+    {
+      "$oid": "62f7677dd5dae9ff07500d0b"
+    },
+    {
+      "$oid": "62f76820d5dae9ff07500d7f"
+    },
+    {
+      "$oid": "62f7682bd5dae9ff07500d86"
+    },
+    {
+      "$oid": "62f76837d5dae9ff07500d8d"
+    },
+    {
+      "$oid": "62f768e9d5dae9ff07500d94"
+    }
+  ],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1660382100337"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1663757332835"
+    }
+  },
+  "__v": 1,
+  "foto": "1663741553782-WhatsApp Image 2022-09-09 at 14.32.29.jpeg"
+},{
+  "_id": {
+    "$oid": "62f76bc2d5dae9ff07500e8c"
+  },
+  "kode": "P2",
+  "nama": "Pembuluh Kayu",
+  "deskripsi": "Penyakit Vascular Streak Dieback (VSD) memiliki ciri-ciri gejala yaitu mati pucuk, daun menguning dengan bercak-bercak hijau pada seri daun ke-2 atau ke-3 dari ujung ranting, kerontokan pada daun muda, adanya kumpulan hifa pada percabangan dan daun menguning dan layu. ",
+  "solusi": [
+    {
+      "$oid": "62f7677dd5dae9ff07500d0b"
+    },
+    {
+      "$oid": "62f768f2d5dae9ff07500d9b"
+    },
+    {
+      "$oid": "62f768fbd5dae9ff07500da2"
+    },
+    {
+      "$oid": "62f76904d5dae9ff07500da9"
+    },
+    {
+      "$oid": "62f7690ed5dae9ff07500db0"
+    },
+    {
+      "$oid": "62f76916d5dae9ff07500db7"
+    }
+  ],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1660382146495"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1663757346109"
+    }
+  },
+  "__v": 2,
+  "foto": "1663741767440-pembuluh kayu.png"
+},{
+  "_id": {
+    "$oid": "62f76c1ad5dae9ff07500e9f"
+  },
+  "kode": "P3",
+  "nama": "Jamur Akar Coklat",
+  "deskripsi": "Penyakit akar cokelat Ciri-ciri gejala jamur akar cokelat yaitu adanya miselium (lapisan jamur) berwarna merah atau cokelat tua pada permukaan akar, adanya miselium yang melekat erat pada akar dan daun menguning dan layu. ",
+  "solusi": [
+    {
+      "$oid": "62f7691fd5dae9ff07500dbe"
+    },
+    {
+      "$oid": "62f7692ad5dae9ff07500dc7"
+    },
+    {
+      "$oid": "62f76932d5dae9ff07500dce"
+    },
+    {
+      "$oid": "62f7693bd5dae9ff07500dd5"
+    }
+  ],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1660382234733"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1663757356487"
+    }
+  },
+  "__v": 1,
+  "foto": "1663741848621-jamur akar colat.png"
+},{
+  "_id": {
+    "$oid": "62f76c44d5dae9ff07500ea9"
+  },
+  "kode": "P4",
+  "nama": "Jamur Akar Putih",
+  "deskripsi": "Ciri-ciri gejala jamur akar putih yaitu adanya miselium (lapisan jamur) berwarna putih kecokelatan tua pada permukaan akar, pada permukaan akar terdapat miselium berwarna putih yang menjalar sepanjang akar, pada akar terdapat miselium berwarna putih yang bercabang-cabang, meluas seperti bulu, adanya miselium yang melekat erat pada akar dan daun menguning dan layu.",
+  "solusi": [
+    {
+      "$oid": "62f7691fd5dae9ff07500dbe"
+    },
+    {
+      "$oid": "62f7692ad5dae9ff07500dc7"
+    },
+    {
+      "$oid": "62f76932d5dae9ff07500dce"
+    },
+    {
+      "$oid": "62f7693bd5dae9ff07500dd5"
+    },
+    {
+      "$oid": "62f7694ed5dae9ff07500de3"
+    }
+  ],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1660382276608"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1663757364581"
+    }
+  },
+  "__v": 2,
+  "foto": "1663741943112-jamur akar putih.jpg"
+},{
+  "_id": {
+    "$oid": "62f76c5dd5dae9ff07500eb3"
+  },
+  "kode": "P5",
+  "nama": "Jamur Akar Merah",
+  "deskripsi": "Ciri-ciri gejala jamur akar merah yaitu adanya miselium (lapisan jamur) berwarna merah atau cokelat tua pada permukaan akar, adanya miselium (lapisan jamur) berwarna merah anggur tua pada permukaan akar tanaman tua, adanya miselium yang melekat erat pada akar, daun menguning dan layu.",
+  "solusi": [
+    {
+      "$oid": "62f7691fd5dae9ff07500dbe"
+    },
+    {
+      "$oid": "62f7692ad5dae9ff07500dc7"
+    },
+    {
+      "$oid": "62f76932d5dae9ff07500dce"
+    },
+    {
+      "$oid": "62f7693bd5dae9ff07500dd5"
+    }
+  ],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1660382301286"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1663757375115"
+    }
+  },
+  "__v": 1,
+  "foto": "1663742097572-hama jamur akar merah.jpg"
+},{
+  "_id": {
+    "$oid": "62f76c7fd5dae9ff07500ebd"
+  },
+  "kode": "P6",
+  "nama": "Jamur Upas",
+  "deskripsi": "Ciri-ciri gejala penyakit jamur akar upas yaitu lapisan bawah kulit batang yang terserang membusuk dan berwarna merah anggur, kerontokan pada daun muda, terbentuk miseliun tipis (seperti sarang laba-laba) pada percabangan yang mengkilat seperti sutera atau perak, adanya kumpulan hifa pada percabangan, adanya kerak berwarna merah pada percabangan, adanya kerak berwarna merah tua pada percabangan, biasanya pada sisi yang lebih kering dan daun menguning dan layu. ",
+  "solusi": [
+    {
+      "$oid": "62f7691fd5dae9ff07500dbe"
+    },
+    {
+      "$oid": "62f7692ad5dae9ff07500dc7"
+    },
+    {
+      "$oid": "62f7694ed5dae9ff07500de3"
+    }
+  ],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1660382335981"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1663757385527"
+    }
+  },
+  "__v": 2,
+  "foto": "1663742395420-jamur upas.PNG"
+},{
+  "_id": {
+    "$oid": "62f76cb0d5dae9ff07500ec7"
+  },
+  "kode": "P7",
+  "nama": "Antraknose",
+  "deskripsi": "Ciri-ciri gejala penyakit antraknose yaitu ada bercak cokelat kehitaman dengan batas yang jelas pada buah yang dimulai dari ujung atau pangkal buah, Terdapat nekrotis diantara tulang daun, adanya bintik-bintik cokelat pada daun muda, pada daun berkembang, bintik cokelat berubah menjadi bercak berlubang dengan jalur disekitar bercak berwarna kuning, pada daun yang lebih tua, bintik nekrosis berkembang menjadi bercak nekrosis yang beraturan, kerontokan pada daun muda, timbul gejala hawar (mati seluruh jaringan daun sehingga berwarna cokelat), buah muda layu dan timbul bintik-bintik cokelat, buah muda mengering dan mengeras. ",
+  "solusi": [
+    {
+      "$oid": "62f76820d5dae9ff07500d7f"
+    },
+    {
+      "$oid": "62f768e9d5dae9ff07500d94"
+    },
+    {
+      "$oid": "62f76916d5dae9ff07500db7"
+    },
+    {
+      "$oid": "62f7693bd5dae9ff07500dd5"
+    },
+    {
+      "$oid": "62f76944d5dae9ff07500ddc"
+    },
+    {
+      "$oid": "632a9eada49b594bec9e468d"
+    }
+  ],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1660382384706"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1663757395377"
+    }
+  },
+  "__v": 1,
+  "foto": "1663742561573-antraknose.png"
+},{
+  "_id": {
+    "$oid": "62f76cd4d5dae9ff07500ed1"
+  },
+  "kode": "P8",
+  "nama": "Kanker Batang",
+  "deskripsi": "Ciri-ciri gejala penyakit kanker batang yaitu adanya warna gelap atau kehitaman dan agak berlekuk pada kulit batang, ada cairan kemerahan yang kemudian menjadi seperti lapisan karat pada bercak kehitaman dibatang, pembusukan pada akar dan mengeluarkan air bila sedikit ditekan dengan jari dan daun menguning dan layu. ",
+  "solusi": [
+    {
+      "$oid": "632a9eb9a49b594bec9e4694"
+    }
+  ],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1660382420263"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1663757409203"
+    }
+  },
+  "__v": 1,
+  "foto": "1663742713085-kanker batang.png"
+}]

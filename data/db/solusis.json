@@ -1,0 +1,647 @@
+[{
+  "_id": {
+    "$oid": "62f76742d5dae9ff07500ce1"
+  },
+  "kode": "S1",
+  "solusi": "Melakukan pemangkasan perawatan yang dilakukan 3-4 kali setahun agar berkurangnya kelembaban dan meningkatkan cahaya matahari yang masuk ke lahan pertanaman.",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1660380994169"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1663736610888"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f7674ad5dae9ff07500ce8"
+  },
+  "kode": "S2",
+  "solusi": "Memberi pupuk organik dengan menaburkan pupuk di sekeliling tanaman ± 50 cm dari tanaman",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1660381002241"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1663736627581"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f76754d5dae9ff07500cef"
+  },
+  "kode": "S3",
+  "solusi": "Sering melakukan panen 4-7 hari sekali",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1660381012762"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1663736640127"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f7675ed5dae9ff07500cf6"
+  },
+  "kode": "S4",
+  "solusi": "Melakukan sanitasi kebun",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1660381022967"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1660381022967"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f76769d5dae9ff07500cfd"
+  },
+  "kode": "S5",
+  "solusi": "Menyarung buah muda berukuran 8-15 cm menggunakan kantong plastik. Lalu biarkan terbuka agar dapat mengatur kelembaban buah yang disarungi.",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1660381033013"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1663736664325"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f76773d5dae9ff07500d04"
+  },
+  "kode": "S6",
+  "solusi": "Memanfaatkan semut hitam untuk musuh alami dengan cara membuat sarang semut hitam dari sarang lipatan daun kakao dan menggantungkannya ke cabang batang.",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1660381043125"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1663736680306"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f7677dd5dae9ff07500d0b"
+  },
+  "kode": "S7",
+  "solusi": "Aplikasi MS APH yaitu melakukan penginfusan akar agar meningkatkan pertumbuhan tanaman",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1660381053431"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1663736977063"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f76786d5dae9ff07500d12"
+  },
+  "kode": "S8",
+  "solusi": "Melakukan perbaikan kebun dengan melakukan pertanaman.",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1660381062929"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1663736997442"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f7678fd5dae9ff07500d19"
+  },
+  "kode": "S9",
+  "solusi": "Menggunakan pestisida untuk menghusir hama.",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1660381071574"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1663737012912"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f7679cd5dae9ff07500d20"
+  },
+  "kode": "S10",
+  "solusi": "Menggunakan APH Beauveria bassiana dosis 1-1,5 kg biakan padat/ha atau 50-100 gr spora/ha dengan volume semprot 500 l/ha.",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1660381084964"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1663737026281"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f767a5d5dae9ff07500d27"
+  },
+  "kode": "S11",
+  "solusi": "Melakukan penyemprotan pestisida nabati (ekstrak daun: mimba, tembakau, babadotan dan sirsak, dll) dengan konsentrasi 2,5-5%.",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1660381093853"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1663737042072"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f767afd5dae9ff07500d30"
+  },
+  "kode": "S12",
+  "solusi": "Melakukan Penyemprotan insektisida kimia ",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1660381103424"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1663737055985"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f767b7d5dae9ff07500d37"
+  },
+  "kode": "S13",
+  "solusi": "Melakukan pemangkasan cabang yang terkena serangan pada jarak 10 cm dari lubang gerekan, lalu dimusnahkan.",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1660381111864"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1663737065960"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f767c1d5dae9ff07500d3e"
+  },
+  "kode": "S14",
+  "solusi": "Lubang gerakan di beri Aplikasi Beauveria bassiana dengan kerapatan spora 106 spora/ml ke menggunakan alat semprot tangan lalu lubang gerekan tersebut ditutup.",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1660381121865"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1663737082044"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f767cad5dae9ff07500d45"
+  },
+  "kode": "S15",
+  "solusi": "Memangkas cabang yang terserang dan memusnahkan larva/pupa yang ada di dalamnya.",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1660381130786"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1663737096120"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f767d5d5dae9ff07500d4c"
+  },
+  "kode": "S16",
+  "solusi": "Menggunakan pemangsa alami yaitu laba-laba, semut dan parasit Exoresta uadrimaculata, Tricholyga psychidarum.",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1660381141525"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1663737107088"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f767ded5dae9ff07500d53"
+  },
+  "kode": "S17",
+  "solusi": "Menggunakan insektisida racun perut, Dipterex dan Thuricide. 50cc/10 liter air.",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1660381150250"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1663737117844"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f767e6d5dae9ff07500d5a"
+  },
+  "kode": "S18",
+  "solusi": "Melakukan pemasangan perangkap pada tempat yang sering dilewati tupai.",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1660381158869"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1663737127793"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f767efd5dae9ff07500d61"
+  },
+  "kode": "S19",
+  "solusi": "Menggunakan burung hantu (Tyto alba) sebagai pemangsa alami.",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1660381167305"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1663737141701"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f76806d5dae9ff07500d6f"
+  },
+  "kode": "S20",
+  "solusi": "Menggunakan Kumbang tanah, kumbang kalajengking, capung dan kepik leher sebagai pemangsa alamai.",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1660381190120"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1663737156308"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f76813d5dae9ff07500d76"
+  },
+  "kode": "S21",
+  "solusi": "Melakukan insektisida berbahan aktif monokrotofas, fosfamidon, karbaril",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1660381203223"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1663737187770"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f76820d5dae9ff07500d7f"
+  },
+  "kode": "S22",
+  "solusi": "Menjaga kebersihan lingkungan dengan memetik buah busuk  saat melakukan pemangkasan atau saat panen lalu mengambil buah yang jatuh dan dan dikumpulkan kemudian dikubur sedalam minimal 30 cm.",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1660381216314"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1663737204172"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f7682bd5dae9ff07500d86"
+  },
+  "kode": "S23",
+  "solusi": "Melakukan pemangkasan tanaman kakao dan pohon pelindung untuk mengurangi kelembaban kebun.",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1660381227263"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1663737217959"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f76837d5dae9ff07500d8d"
+  },
+  "kode": "S24",
+  "solusi": "Melakukan penyemprotan Jamur Trichoderma spp. dengan dosis 2kg/ha biakan padat dengan volume semprot 500 l/ha pada buah kakao sehat sebagai pencegahan sebelum terjadinya hal yang tidak diinginkan.",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1660381239526"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1663737230276"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f768e9d5dae9ff07500d94"
+  },
+  "kode": "S25",
+  "solusi": "Melakukan penanaman varietas.",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1660381417196"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1663737240924"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f768f2d5dae9ff07500d9b"
+  },
+  "kode": "S26",
+  "solusi": "Melakukan pemangkasan sanitasi dengan cara ranting yang tidak sehat dipotong sampai batas gejala garis coklat pada xylem ditambah 30-40cm di bawahnya.",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1660381426167"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1663737252343"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f768fbd5dae9ff07500da2"
+  },
+  "kode": "S27",
+  "solusi": "Melakukan sambung samping yang diperoleh dari tanaman induk unggul ke bawah batang tanaman kakao yang kurang subur. ",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1660381435371"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1663737263673"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f76904d5dae9ff07500da9"
+  },
+  "kode": "S28",
+  "solusi": "Melakukan pemusnahan pengganggu tanaman dengan membokar  tanaman yang diserang dan sudah tua, diiringi penanaman kembali.",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1660381444537"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1663737275159"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f7690ed5dae9ff07500db0"
+  },
+  "kode": "S29",
+  "solusi": "Pada saat melakukan pembenihan agar di atap memakai plastik agar mencegah terjadinya infeksi pada benih dan membasmi benih yang diserang. ",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1660381454067"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1663737288275"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f76916d5dae9ff07500db7"
+  },
+  "kode": "S30",
+  "solusi": "Melakukan Penyemprotan fungisida",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1660381462671"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1663737300405"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f7691fd5dae9ff07500dbe"
+  },
+  "kode": "S31",
+  "solusi": "Tanaman yang telah mati disebabkan serangan jamur akar harus dibersihkan dan dimusnahkan.",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1660381471573"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1663737316776"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f7692ad5dae9ff07500dc7"
+  },
+  "kode": "S32",
+  "solusi": "Pada lubang bekas bongkaran diberi belerang sebanyak 300 g. dan baru bisa ditanami kembali selama satu tahun.",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1660381482198"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1663737332362"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f76932d5dae9ff07500dce"
+  },
+  "kode": "S33",
+  "solusi": "Aplikasi APH Trichoderma pada tanaman disekitar tanaman terserang",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1660381490946"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1663737390025"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f7693bd5dae9ff07500dd5"
+  },
+  "kode": "S34",
+  "solusi": "Aplikasi MS APH, untuk meningkatkan vigor tanaman",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1660381499685"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1663737402545"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f76944d5dae9ff07500ddc"
+  },
+  "kode": "S35",
+  "solusi": "Melakukan pemupukan melalui daun dan dapat dipupuk sejak tunas mulai pecah atau terbuka. ",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1660381508261"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1663737417735"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f7694ed5dae9ff07500de3"
+  },
+  "kode": "S36",
+  "solusi": "Menjaga kelembapan iklim kebun denngan cara melakukan penanaman pohon penaung.",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1660381518522"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1663737427558"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "632a9eada49b594bec9e468d"
+  },
+  "kode": "S37",
+  "solusi": "Melakukan pemusnahan dengan pembongkaran tanaman yang terserang berat.",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1663737517023"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1663737517023"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "632a9eb9a49b594bec9e4694"
+  },
+  "kode": "S38",
+  "solusi": "Kulit batang  busuk dikupas hingga batas yang tisak busuk lalu beri asap cair dan arang dengan cara dioles. Jika terjadi infeksi melingkari batang, tanaman akan dipotong atau dibongkar.",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1663737529395"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1663737529395"
+    }
+  },
+  "__v": 0
+}]
