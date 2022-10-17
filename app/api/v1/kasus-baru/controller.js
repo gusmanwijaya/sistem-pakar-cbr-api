@@ -27,7 +27,7 @@ module.exports = {
 
       res.status(StatusCodes.OK).json({
         statusCode: StatusCodes.OK,
-        message: "Berhasil mendapatkan data basis baru",
+        message: "Berhasil mendapatkan data kasus baru",
         current_page: parseInt(page),
         total_page: Math.ceil(count / limit),
         total_data: count,
@@ -60,7 +60,7 @@ module.exports = {
 
       res.status(StatusCodes.OK).json({
         statusCode: StatusCodes.OK,
-        message: "Berhasil mendapatkan detail data basis baru",
+        message: "Berhasil mendapatkan detail data kasus baru",
         data,
       });
     } catch (error) {
@@ -70,7 +70,7 @@ module.exports = {
   revisi: async (req, res, next) => {
     try {
       const { id: identifikasiId } = req.params;
-      const { solusi, gejala } = req.body;
+      const { hamaPenyakit, solusi, gejala } = req.body;
 
       let data = await Identifikasi.findOne({
         _id: identifikasiId,
@@ -89,6 +89,9 @@ module.exports = {
           `Basis baru dengan id : ${identifikasiId} tidak ditemukan!`
         );
 
+      const detailPenyakit = await HamaPenyakit.find({
+        _id: { $in: JSON.parse(hamaPenyakit) },
+      }).select("_id kode nama deskripsi foto");
       const selectedGejala = await Gejala.find({
         _id: { $in: JSON.parse(gejala) },
       }).select("_id kode nama bobot");
@@ -96,13 +99,14 @@ module.exports = {
         _id: { $in: JSON.parse(solusi) },
       }).select("_id kode solusi");
 
+      data.detailPenyakit = detailPenyakit;
       data.selectedGejala = selectedGejala;
       data.detailSolusi = detailSolusi;
       await data.save();
 
       res.status(StatusCodes.OK).json({
         statusCode: StatusCodes.OK,
-        message: "Berhasil melakukan revisi data basis baru",
+        message: "Berhasil melakukan revisi data kasus baru",
         data,
       });
     } catch (error) {
@@ -131,19 +135,24 @@ module.exports = {
       data.isVerified = true;
       await data.save();
 
-      let basisPengetahuan = await BasisPengetahuan.findOne({
-        hamaPenyakit: data?.detailPenyakit[0]?._id,
-      });
+      const updatedData = {
+        gejala: data?.selectedGejala?.map((value) => value?._id),
+        solusi: data?.detailSolusi?.map((value) => value?._id),
+      };
 
-      basisPengetahuan.hamaPenyakit = data?.detailPenyakit[0]?._id;
-      basisPengetahuan.gejala = data?.selectedGejala;
-      basisPengetahuan.solusi = data?.detailSolusi;
-      await basisPengetahuan.save();
+      let basisPengetahuan = await BasisPengetahuan.updateMany(
+        {
+          hamaPenyakit: {
+            $in: data?.detailPenyakit?.map((value) => value?._id),
+          },
+        },
+        updatedData
+      );
 
       res.status(StatusCodes.OK).json({
         statusCode: StatusCodes.OK,
         message:
-          "Berhasil melakukan verifikasi basis baru, basis baru sudah dipindahkan ke basis pengetahuan!",
+          "Berhasil melakukan verifikasi kasus baru, kasus baru sudah dipindahkan ke basis kasus!",
         data: {
           basisPengetahuan,
         },
@@ -167,7 +176,7 @@ module.exports = {
 
       res.status(StatusCodes.OK).json({
         statusCode: StatusCodes.OK,
-        message: "Berhasil menghapus data basis baru!",
+        message: "Berhasil menghapus data kasus baru!",
         data,
       });
     } catch (error) {
