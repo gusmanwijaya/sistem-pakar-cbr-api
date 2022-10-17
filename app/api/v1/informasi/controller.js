@@ -28,7 +28,7 @@ module.exports = {
         .limit(limit)
         .skip(limit * (page - 1));
 
-      const count = await HamaPenyakit.countDocuments();
+      const count = await HamaPenyakit.countDocuments(condition);
 
       res.status(StatusCodes.OK).json({
         statusCode: StatusCodes.OK,

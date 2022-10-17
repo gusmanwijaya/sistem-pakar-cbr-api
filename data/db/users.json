@@ -397,4 +397,213 @@
     }
   },
   "__v": 0
+},{
+  "_id": {
+    "$oid": "632efa419dd317bc68fca318"
+  },
+  "nama": "Lovida Royani",
+  "email": "lovidaroyani09@gmail.com",
+  "password": "$2a$10$1.mD9BS8EGdh7lhbBFzsX..ra3GWLruBWh8P3Ph94KuTA4O4kHZYi",
+  "role": "petani",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1664023105718"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1664023105718"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6336eb448344dd2f1330add2"
+  },
+  "nama": "Nining",
+  "email": "nining@gmail.com",
+  "password": "$2a$10$lHsmRF/pnngxtub.EeakZewrMFRIrbG6x2SyHOIYC5EWFmMbBMchy",
+  "role": "petani",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1664543556498"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1664543556498"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6336ed818344dd2f1330adfa"
+  },
+  "nama": "Meti Adriani",
+  "email": "meti@gmail.com",
+  "password": "$2a$10$681A9Pojz7ZZreJPsEVHPeRM/50RlsLHFMWDr4XAlQEtyBn9youbu",
+  "role": "petani",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1664544129090"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1664544129090"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6336ef018344dd2f1330ae0e"
+  },
+  "nama": "Suhirman",
+  "email": "suhirman@gmail.com",
+  "password": "$2a$10$2JTWZuaIEr1yw/zeMgCuX./CXxcmteuXAbe4.r2EgADcJKEmusME2",
+  "role": "petani",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1664544513208"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1664544513208"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6336f0a28344dd2f1330ae22"
+  },
+  "nama": "Hasmi",
+  "email": "hasmi@gmail.com",
+  "password": "$2a$10$Tio13oiiPYQ6jy2Z9Y1qxeLUcrHVL.264oTxsnSEAD9VfZ89mhd82",
+  "role": "petani",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1664544930443"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1664544930443"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6336f17b8344dd2f1330ae36"
+  },
+  "nama": "Herdeny",
+  "email": "herdent@gmail.com",
+  "password": "$2a$10$Wf8zzxrPvC9x.8ucWJ0Mpu154kn9sMkbSVq7DRpUdwb6FqlMRubVa",
+  "role": "petani",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1664545147701"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1664545147701"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6336f2798344dd2f1330ae4a"
+  },
+  "nama": "Pepi Kurniawati",
+  "email": "pepi@gmail.com",
+  "password": "$2a$10$i5.AHYQwDTQ6CEfGBQDs6e0uYd/mSzDh9Rbt4WhTFhCUfEe.mhmGy",
+  "role": "petani",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1664545401938"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1664545401938"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6336f56d8344dd2f1330ae5e"
+  },
+  "nama": "Marlena",
+  "email": "marlena@gmail.com",
+  "password": "$2a$10$/PO1qffX.OAGzxm12zZpFuvg4S0SecEr5EkJPxAQAqvdAFa/EE3Za",
+  "role": "petani",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1664546157291"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1664546157291"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6336f5f58344dd2f1330ae72"
+  },
+  "nama": "Lasmita",
+  "email": "lasmita@gmail.com",
+  "password": "$2a$10$wjwQTZAXQ5gcykjWLeowfeIF8Hd3oKTte9dpqPITCcdTAloODFhF2",
+  "role": "petani",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1664546293010"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1664546293010"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6336f7af8344dd2f1330ae87"
+  },
+  "nama": "Demi Yunita",
+  "email": "demi@gmail.com",
+  "password": "$2a$10$wH82JW2JoOguyotE6bkOpu2gLPYovtAr8jMtLDo9OSiZ7IkfnxHve",
+  "role": "petani",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1664546735354"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1664546735354"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6336fa138344dd2f1330ae9c"
+  },
+  "nama": "Bolqia",
+  "email": "bolqia@gmail,com",
+  "password": "$2a$10$31nolU8RBGZnsj3d0F3ZFe8T27NxE47Rl.ie3.PkxPhO3xLXM2l2a",
+  "role": "petani",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1664547347544"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1664547347544"
+    }
+  },
+  "__v": 0
 }]

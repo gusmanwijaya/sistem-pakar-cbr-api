@@ -3,7 +3,7 @@
     "$oid": "62f75ee9d5dae9ff07500b02"
   },
   "kode": "G1",
-  "nama": "Terdapat bekas gerekan pada batang/cabang berdiameter 3-5 mm",
+  "nama": "Pada batang/cabang terdapat bekas gerekan berdiameter 3-5 mm",
   "bobot": 3,
   "createdAt": {
     "$date": {
@@ -12,7 +12,7 @@
   },
   "updatedAt": {
     "$date": {
-      "$numberLong": "1660378857914"
+      "$numberLong": "1664357335072"
     }
   },
   "__v": 0
@@ -21,7 +21,7 @@
     "$oid": "62f7608cd5dae9ff07500b09"
   },
   "kode": "G2",
-  "nama": "Nampak kerusakan yang melingkar pada batang",
+  "nama": "Terdapat kerusakan yang melingkar pada batang ",
   "bobot": 3,
   "createdAt": {
     "$date": {
@@ -30,7 +30,7 @@
   },
   "updatedAt": {
     "$date": {
-      "$numberLong": "1660379276780"
+      "$numberLong": "1664357346485"
     }
   },
   "__v": 0
@@ -39,7 +39,7 @@
     "$oid": "62f760a1d5dae9ff07500b10"
   },
   "kode": "G3",
-  "nama": "Terdapat sisa-sisa gerekan yang berserat pada buah",
+  "nama": "Pada buah yang berserat terdapat sisa-sisa gerekan ",
   "bobot": 3,
   "createdAt": {
     "$date": {
@@ -48,7 +48,7 @@
   },
   "updatedAt": {
     "$date": {
-      "$numberLong": "1660379297028"
+      "$numberLong": "1664357358178"
     }
   },
   "__v": 0
@@ -57,7 +57,7 @@
     "$oid": "62f760c6d5dae9ff07500b17"
   },
   "kode": "G4",
-  "nama": "Batang/cabang yang digerek akan layu, kering dan mati",
+  "nama": "Batang/cabang yang terkena gerekan akan layu, kering dan mati.",
   "bobot": 3,
   "createdAt": {
     "$date": {
@@ -66,7 +66,7 @@
   },
   "updatedAt": {
     "$date": {
-      "$numberLong": "1660379334151"
+      "$numberLong": "1664374432140"
     }
   },
   "__v": 0
@@ -147,7 +147,7 @@
     "$oid": "62f76121d5dae9ff07500b3a"
   },
   "kode": "G9",
-  "nama": "Buah muda mengering dan rontok",
+  "nama": "Buah muda menjadi kering dan rontok ",
   "bobot": 3,
   "createdAt": {
     "$date": {
@@ -156,7 +156,7 @@
   },
   "updatedAt": {
     "$date": {
-      "$numberLong": "1660379425815"
+      "$numberLong": "1664357459147"
     }
   },
   "__v": 0
@@ -165,7 +165,7 @@
     "$oid": "62f76231d5dae9ff07500b4d"
   },
   "kode": "G10",
-  "nama": "Ranting dan pucuk menjadi layu, mati dan terdapat koloni berwarna putih",
+  "nama": "Ranting dan pucuk tidak segar, mati dan terdapat koloni berwarna putih",
   "bobot": 3,
   "createdAt": {
     "$date": {
@@ -174,7 +174,7 @@
   },
   "updatedAt": {
     "$date": {
-      "$numberLong": "1660379697891"
+      "$numberLong": "1664357490406"
     }
   },
   "__v": 0
@@ -219,7 +219,7 @@
     "$oid": "62f76263d5dae9ff07500b64"
   },
   "kode": "G13",
-  "nama": "Biji kakao menggumpal dan menjadi satu",
+  "nama": "Biji kakao menyatu dan menggumpal",
   "bobot": 3,
   "createdAt": {
     "$date": {
@@ -228,7 +228,7 @@
   },
   "updatedAt": {
     "$date": {
-      "$numberLong": "1660379747647"
+      "$numberLong": "1664357526419"
     }
   },
   "__v": 0
@@ -237,7 +237,7 @@
     "$oid": "62f7626fd5dae9ff07500b6b"
   },
   "kode": "G14",
-  "nama": "Terdapat gumpalan putih pada bawah daun",
+  "nama": "Pada bawah daun terdapat gumpalan putih ",
   "bobot": 3,
   "createdAt": {
     "$date": {
@@ -246,7 +246,7 @@
   },
   "updatedAt": {
     "$date": {
-      "$numberLong": "1660379759355"
+      "$numberLong": "1664357542106"
     }
   },
   "__v": 0
@@ -255,7 +255,7 @@
     "$oid": "62f7627cd5dae9ff07500b72"
   },
   "kode": "G15",
-  "nama": "Bagian bawah daun dan buah menjadi hitam berbentuk jelaga",
+  "nama": "Bagian buah dan bawah daun menjadi hitam berbentuk jelaga",
   "bobot": 2,
   "createdAt": {
     "$date": {
@@ -264,7 +264,7 @@
   },
   "updatedAt": {
     "$date": {
-      "$numberLong": "1660379772535"
+      "$numberLong": "1664357560352"
     }
   },
   "__v": 0
@@ -273,7 +273,7 @@
     "$oid": "62f762ffd5dae9ff07500b79"
   },
   "kode": "G16",
-  "nama": "Pucuk daun kakao kerdil, terperintir dan keriput",
+  "nama": "Bagian pucuk daun menjadi kerdil, terperintir dan mengkeriput ",
   "bobot": 2,
   "createdAt": {
     "$date": {
@@ -282,7 +282,7 @@
   },
   "updatedAt": {
     "$date": {
-      "$numberLong": "1660379903084"
+      "$numberLong": "1664357575081"
     }
   },
   "__v": 0
@@ -291,7 +291,7 @@
     "$oid": "62f7630dd5dae9ff07500b80"
   },
   "kode": "G17",
-  "nama": "Pertumbuhan tunas, bunga dan buah tidak normal",
+  "nama": "Tidak normalnya pertumbuhan tunas, bunga dan buah.",
   "bobot": 2,
   "createdAt": {
     "$date": {
@@ -300,7 +300,7 @@
   },
   "updatedAt": {
     "$date": {
-      "$numberLong": "1660379917277"
+      "$numberLong": "1664357590656"
     }
   },
   "__v": 0
@@ -309,7 +309,7 @@
     "$oid": "62f76318d5dae9ff07500b87"
   },
   "kode": "G18",
-  "nama": "Terdapat kepompong seperti kantong di bawah daun dan buah kakao",
+  "nama": "Di bawah daun dan buah terdapat kepompong",
   "bobot": 3,
   "createdAt": {
     "$date": {
@@ -318,7 +318,7 @@
   },
   "updatedAt": {
     "$date": {
-      "$numberLong": "1660379928908"
+      "$numberLong": "1664357606090"
     }
   },
   "__v": 0
@@ -327,7 +327,7 @@
     "$oid": "62f76328d5dae9ff07500b8e"
   },
   "kode": "G19",
-  "nama": "Daun-daun kakao berlobang tak beraturan pada bagian tengah daun",
+  "nama": "Terdapat lobang tak beraturan di bagian tengah daun kakao",
   "bobot": 3,
   "createdAt": {
     "$date": {
@@ -336,7 +336,7 @@
   },
   "updatedAt": {
     "$date": {
-      "$numberLong": "1660379944404"
+      "$numberLong": "1664357623128"
     }
   },
   "__v": 0
@@ -345,7 +345,7 @@
     "$oid": "62f76337d5dae9ff07500b95"
   },
   "kode": "G20",
-  "nama": "Terdapat koloni putih kapas pada tunas baru dan kematian pucuk daun",
+  "nama": "Kematian pucuk daun dan terdapat koloni putih kapas pada tunas baru ",
   "bobot": 3,
   "createdAt": {
     "$date": {
@@ -354,7 +354,7 @@
   },
   "updatedAt": {
     "$date": {
-      "$numberLong": "1660379959610"
+      "$numberLong": "1664357637569"
     }
   },
   "__v": 0
@@ -363,7 +363,7 @@
     "$oid": "62f76346d5dae9ff07500b9c"
   },
   "kode": "G21",
-  "nama": "Terdapat lubang-lubang pada daun kakao",
+  "nama": "Daun kakao berlobang ",
   "bobot": 1,
   "createdAt": {
     "$date": {
@@ -372,7 +372,7 @@
   },
   "updatedAt": {
     "$date": {
-      "$numberLong": "1660379974419"
+      "$numberLong": "1664357660725"
     }
   },
   "__v": 0
@@ -381,7 +381,7 @@
     "$oid": "62f76395d5dae9ff07500ba3"
   },
   "kode": "G22",
-  "nama": "Pucuk tanaman kakao gundul",
+  "nama": "Pucuk tanaman kakao menjadi gundul",
   "bobot": 1,
   "createdAt": {
     "$date": {
@@ -390,7 +390,7 @@
   },
   "updatedAt": {
     "$date": {
-      "$numberLong": "1660380053780"
+      "$numberLong": "1664357683633"
     }
   },
   "__v": 0
@@ -399,7 +399,7 @@
     "$oid": "62f763a2d5dae9ff07500baa"
   },
   "kode": "G23",
-  "nama": "Ranting kakao tinggal tulang daun saja",
+  "nama": "Terdapat tinggal tulang daun saja pada ranting kakao",
   "bobot": 3,
   "createdAt": {
     "$date": {
@@ -408,7 +408,7 @@
   },
   "updatedAt": {
     "$date": {
-      "$numberLong": "1660380066024"
+      "$numberLong": "1664357696146"
     }
   },
   "__v": 0
@@ -453,7 +453,7 @@
     "$oid": "62f763d7d5dae9ff07500bc1"
   },
   "kode": "G26",
-  "nama": "Menyerang buah yang masih muda",
+  "nama": "Menyerang buah muda",
   "bobot": 2,
   "createdAt": {
     "$date": {
@@ -462,7 +462,7 @@
   },
   "updatedAt": {
     "$date": {
-      "$numberLong": "1660380119971"
+      "$numberLong": "1664374505322"
     }
   },
   "__v": 0
@@ -489,7 +489,7 @@
     "$oid": "62f76439d5dae9ff07500bcf"
   },
   "kode": "G28",
-  "nama": "Menyerang buah yang sudah masak",
+  "nama": "Menyerang buah  masak",
   "bobot": 2,
   "createdAt": {
     "$date": {
@@ -498,7 +498,7 @@
   },
   "updatedAt": {
     "$date": {
-      "$numberLong": "1663495474029"
+      "$numberLong": "1664374526156"
     }
   },
   "__v": 0
@@ -507,7 +507,7 @@
     "$oid": "62f7644cd5dae9ff07500bd6"
   },
   "kode": "G29",
-  "nama": "Memakan biji dan daging buah",
+  "nama": "Daging dan biji buah dimakan",
   "bobot": 3,
   "createdAt": {
     "$date": {
@@ -516,7 +516,7 @@
   },
   "updatedAt": {
     "$date": {
-      "$numberLong": "1663515865086"
+      "$numberLong": "1664357736057"
     }
   },
   "__v": 0
@@ -561,7 +561,7 @@
     "$oid": "62f7649ed5dae9ff07500bed"
   },
   "kode": "G32",
-  "nama": "Biji-biji buah yang terserang tampak berserakan",
+  "nama": "Terdapat biji buah yang berserakan dibawah pohon kakao",
   "bobot": 2,
   "createdAt": {
     "$date": {
@@ -570,7 +570,7 @@
   },
   "updatedAt": {
     "$date": {
-      "$numberLong": "1663495626899"
+      "$numberLong": "1664357761248"
     }
   },
   "__v": 0
@@ -651,7 +651,7 @@
     "$oid": "62f764edd5dae9ff07500c10"
   },
   "kode": "G37",
-  "nama": "Ada bercak cokelat kehitaman dengan batas yang jelas pada buah yang dimulai dari ujung atau pangkal buah",
+  "nama": "Terdapat bercak cokelat kehitaman pada buah kakao dari pangkal atau ujung buah",
   "bobot": 2,
   "createdAt": {
     "$date": {
@@ -660,7 +660,7 @@
   },
   "updatedAt": {
     "$date": {
-      "$numberLong": "1663495737024"
+      "$numberLong": "1664374583554"
     }
   },
   "__v": 0
@@ -669,7 +669,7 @@
     "$oid": "62f764f7d5dae9ff07500c17"
   },
   "kode": "G38",
-  "nama": "Permukaan buah menjadi busuk, basah dan berwarna cokelat kehitaman",
+  "nama": "Pada permukaan buah terdapat basah, busuk dan berwarna cokelat kehitaman ",
   "bobot": 3,
   "createdAt": {
     "$date": {
@@ -678,7 +678,7 @@
   },
   "updatedAt": {
     "$date": {
-      "$numberLong": "1663495752239"
+      "$numberLong": "1664374600882"
     }
   },
   "__v": 0
@@ -687,7 +687,7 @@
     "$oid": "62f7650ed5dae9ff07500c1e"
   },
   "kode": "G39",
-  "nama": "Muncul tepung berwarna putih pada permukaan buah",
+  "nama": "Pada permukaan buah terdapat tepung berwarna putih ",
   "bobot": 3,
   "createdAt": {
     "$date": {
@@ -696,7 +696,7 @@
   },
   "updatedAt": {
     "$date": {
-      "$numberLong": "1663495767036"
+      "$numberLong": "1664357856187"
     }
   },
   "__v": 0
@@ -705,7 +705,7 @@
     "$oid": "62f7651cd5dae9ff07500c25"
   },
   "kode": "G40",
-  "nama": "Adanya warna gelap atau kehitaman dan agak berlekuk pada kulit batang",
+  "nama": "Kulit batang berwarna kehitaman atau gelap dan agak berlekuk ",
   "bobot": 3,
   "createdAt": {
     "$date": {
@@ -714,7 +714,7 @@
   },
   "updatedAt": {
     "$date": {
-      "$numberLong": "1663495781359"
+      "$numberLong": "1664357890218"
     }
   },
   "__v": 0
@@ -723,7 +723,7 @@
     "$oid": "62f76532d5dae9ff07500c2c"
   },
   "kode": "G41",
-  "nama": "Ada cairan kemerahan yang kemudian menjadi seperti lapisan karat pada bercak kehitaman dibatang",
+  "nama": "Terdapat cairan kemerahan seperti lapisan karat pada bercak kehitaman dibatang",
   "bobot": 3,
   "createdAt": {
     "$date": {
@@ -732,7 +732,7 @@
   },
   "updatedAt": {
     "$date": {
-      "$numberLong": "1663495798307"
+      "$numberLong": "1664357919658"
     }
   },
   "__v": 0
@@ -741,7 +741,7 @@
     "$oid": "62f7653ad5dae9ff07500c35"
   },
   "kode": "G42",
-  "nama": "Lapisan bawah kulit batang yang terserang membusuk dan berwarna merah anggur",
+  "nama": "Pada lapisan bawah kulit batang yang terkena serangan akan berwarna merah anggur dan membusuk",
   "bobot": 3,
   "createdAt": {
     "$date": {
@@ -750,7 +750,7 @@
   },
   "updatedAt": {
     "$date": {
-      "$numberLong": "1663495810864"
+      "$numberLong": "1664357932625"
     }
   },
   "__v": 0
@@ -777,7 +777,7 @@
     "$oid": "62f76554d5dae9ff07500c43"
   },
   "kode": "G44",
-  "nama": "Daun menguning dengan bercak-bercak hijau pada seri daun ke-2 atau ke-3 dari ujung ranting",
+  "nama": "Pada ujung ranting seri daun ke-2 atau ke-3 terdapat daun menguning dengan bercak-bercak hijau",
   "bobot": 3,
   "createdAt": {
     "$date": {
@@ -786,7 +786,7 @@
   },
   "updatedAt": {
     "$date": {
-      "$numberLong": "1663495865795"
+      "$numberLong": "1664357945836"
     }
   },
   "__v": 0
@@ -795,7 +795,7 @@
     "$oid": "62f76562d5dae9ff07500c4a"
   },
   "kode": "G45",
-  "nama": "Terdapat nekrotis diantara tulang daun",
+  "nama": "Diantara tulang daun terdapat nekrotis",
   "bobot": 3,
   "createdAt": {
     "$date": {
@@ -804,7 +804,7 @@
   },
   "updatedAt": {
     "$date": {
-      "$numberLong": "1663495879785"
+      "$numberLong": "1664357959499"
     }
   },
   "__v": 0
@@ -813,7 +813,7 @@
     "$oid": "62f76571d5dae9ff07500c51"
   },
   "kode": "G46",
-  "nama": "Adanya bintik-bintik cokelat pada daun muda",
+  "nama": "Di daun muda ada bintik-bintik cokelat ",
   "bobot": 3,
   "createdAt": {
     "$date": {
@@ -822,7 +822,7 @@
   },
   "updatedAt": {
     "$date": {
-      "$numberLong": "1663495900447"
+      "$numberLong": "1664357973836"
     }
   },
   "__v": 0
@@ -831,7 +831,7 @@
     "$oid": "62f76629d5dae9ff07500c58"
   },
   "kode": "G47",
-  "nama": "Pada daun berkembang, bintik cokelat berubah menjadi bercak berlubang dengan jalur disekitar bercak berwarna kuning",
+  "nama": "Pada daun berkembang terdapat bintik cokelat berubah menjadi bercak berlubang pada jalur sekitar bercak berwarna kuning ",
   "bobot": 3,
   "createdAt": {
     "$date": {
@@ -840,7 +840,7 @@
   },
   "updatedAt": {
     "$date": {
-      "$numberLong": "1663495939651"
+      "$numberLong": "1664357989238"
     }
   },
   "__v": 0
@@ -849,7 +849,7 @@
     "$oid": "62f76637d5dae9ff07500c5f"
   },
   "kode": "G48",
-  "nama": "Pada daun yang lebih tua, bintik nekrosis berkembang menjadi bercak nekrosis yang beraturan",
+  "nama": "Terdapat bintik nekrosis berkembang menjadi bercak nekrosis yang beraturan di daun yang lebih tua",
   "bobot": 3,
   "createdAt": {
     "$date": {
@@ -858,7 +858,7 @@
   },
   "updatedAt": {
     "$date": {
-      "$numberLong": "1663495964523"
+      "$numberLong": "1664358008323"
     }
   },
   "__v": 0
@@ -867,7 +867,7 @@
     "$oid": "62f76647d5dae9ff07500c66"
   },
   "kode": "G49",
-  "nama": "Kerontokan pada daun muda",
+  "nama": "Daun muda menjadi rontok ",
   "bobot": 2,
   "createdAt": {
     "$date": {
@@ -876,7 +876,7 @@
   },
   "updatedAt": {
     "$date": {
-      "$numberLong": "1663495995562"
+      "$numberLong": "1664358022527"
     }
   },
   "__v": 0
@@ -885,7 +885,7 @@
     "$oid": "62f76684d5dae9ff07500c79"
   },
   "kode": "G50",
-  "nama": "Timbul gejala hawar (mati seluruh jaringan daun sehingga berwarna cokelat)",
+  "nama": "Jaringan daun seluruhnya mati  menjadi berwarna cokelat",
   "bobot": 1,
   "createdAt": {
     "$date": {
@@ -894,7 +894,7 @@
   },
   "updatedAt": {
     "$date": {
-      "$numberLong": "1663496012408"
+      "$numberLong": "1664358036860"
     }
   },
   "__v": 0
@@ -903,7 +903,7 @@
     "$oid": "62f76690d5dae9ff07500c80"
   },
   "kode": "G51",
-  "nama": "Buah muda layu dan timbul bintik-bintik cokelat",
+  "nama": "Layu dan ada bintik-bintik cokelat pada buah muda",
   "bobot": 3,
   "createdAt": {
     "$date": {
@@ -912,7 +912,7 @@
   },
   "updatedAt": {
     "$date": {
-      "$numberLong": "1663496036912"
+      "$numberLong": "1664358054230"
     }
   },
   "__v": 0
@@ -921,7 +921,7 @@
     "$oid": "62f766a2d5dae9ff07500c89"
   },
   "kode": "G52",
-  "nama": "Buah muda mengering dan mengeras ",
+  "nama": "Buah muda menjadi kering dan keras ",
   "bobot": 3,
   "createdAt": {
     "$date": {
@@ -930,7 +930,7 @@
   },
   "updatedAt": {
     "$date": {
-      "$numberLong": "1663496047273"
+      "$numberLong": "1664358065764"
     }
   },
   "__v": 0
@@ -939,7 +939,7 @@
     "$oid": "62f766aed5dae9ff07500c90"
   },
   "kode": "G53",
-  "nama": "Pada buah dewasa timbul bercak cokelat yang menyeluruh menutupi buah dan buah mengerut pada bagian ujungnya",
+  "nama": "Pada buah yang sudah tua terdapat bercak cokelat yang menyeluruh menutupi buah dan mengerut pada bagian ujung buah",
   "bobot": 3,
   "createdAt": {
     "$date": {
@@ -948,7 +948,7 @@
   },
   "updatedAt": {
     "$date": {
-      "$numberLong": "1663496070567"
+      "$numberLong": "1664358079802"
     }
   },
   "__v": 0
@@ -957,7 +957,7 @@
     "$oid": "62f766bcd5dae9ff07500c97"
   },
   "kode": "G54",
-  "nama": "Terbentuk miselium tipis (seperti sarang laba-laba) pada percabangan yang mengkilat seperti sutera atau perak",
+  "nama": "Terbentuk miselium tipis di cabangan yang mengkilat seperti perak  dan sutera",
   "bobot": 3,
   "createdAt": {
     "$date": {
@@ -966,7 +966,7 @@
   },
   "updatedAt": {
     "$date": {
-      "$numberLong": "1663496087387"
+      "$numberLong": "1664358090154"
     }
   },
   "__v": 0
@@ -975,7 +975,7 @@
     "$oid": "62f766cad5dae9ff07500c9e"
   },
   "kode": "G55",
-  "nama": "Adanya kumpulan hifa pada percabangan",
+  "nama": "Pada percabangan terdapat  kumpulan hifa",
   "bobot": 2,
   "createdAt": {
     "$date": {
@@ -984,7 +984,7 @@
   },
   "updatedAt": {
     "$date": {
-      "$numberLong": "1663496100707"
+      "$numberLong": "1664358101407"
     }
   },
   "__v": 0
@@ -993,7 +993,7 @@
     "$oid": "62f766d8d5dae9ff07500ca5"
   },
   "kode": "G56",
-  "nama": "Adanya kerak berwarna merah pada percabangan",
+  "nama": "Pada percabangan terdapat kerak berwarna merah ",
   "bobot": 3,
   "createdAt": {
     "$date": {
@@ -1002,7 +1002,7 @@
   },
   "updatedAt": {
     "$date": {
-      "$numberLong": "1663496114307"
+      "$numberLong": "1664358116212"
     }
   },
   "__v": 0
@@ -1011,7 +1011,7 @@
     "$oid": "62f766e3d5dae9ff07500cac"
   },
   "kode": "G57",
-  "nama": "Adanya kerak berwarna merah tua pada percabangan, biasanya pada sisi yang lebih kering",
+  "nama": "Pada percabangan yang lebih kering terdapat kerak warna merah tua ",
   "bobot": 2,
   "createdAt": {
     "$date": {
@@ -1020,7 +1020,7 @@
   },
   "updatedAt": {
     "$date": {
-      "$numberLong": "1663496131577"
+      "$numberLong": "1664358127174"
     }
   },
   "__v": 0
@@ -1029,7 +1029,7 @@
     "$oid": "62f766eed5dae9ff07500cb3"
   },
   "kode": "G58",
-  "nama": "Adanya miselium (lapisan jamur) berwarna merah atau cokelat tua pada permukaan akar",
+  "nama": "Terdapat lapisan jamur pada permukaan akar berwarna merah atau cokelat tua ",
   "bobot": 3,
   "createdAt": {
     "$date": {
@@ -1038,7 +1038,7 @@
   },
   "updatedAt": {
     "$date": {
-      "$numberLong": "1663496151561"
+      "$numberLong": "1664358140275"
     }
   },
   "__v": 0
@@ -1047,7 +1047,7 @@
     "$oid": "62f766f9d5dae9ff07500cba"
   },
   "kode": "G59",
-  "nama": "Adanya miselium (lapisan jamur) berwarna putih kecokelatan tua pada permukaan akar",
+  "nama": "Terdapat miselium (lapisan jamur) pada permukaan akar berwarna putih kecokelatan tua",
   "bobot": 3,
   "createdAt": {
     "$date": {
@@ -1056,187 +1056,115 @@
   },
   "updatedAt": {
     "$date": {
-      "$numberLong": "1663496176141"
+      "$numberLong": "1664358152996"
     }
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "6326f03ad71fcc159951e667"
+    "$oid": "633417df606a5993aa14183b"
   },
   "kode": "G60",
-  "nama": "Adanya miselium (lapisan jamur) berwarna merah anggur tua pada permukaan akar tanaman tua",
+  "nama": "Di permukaan akar tanaman yang sudah tua terdapat miselium (lapisan jamur) berwarna merah anggur tua ",
   "bobot": 3,
   "createdAt": {
     "$date": {
-      "$numberLong": "1663496250767"
+      "$numberLong": "1664358367596"
     }
   },
   "updatedAt": {
     "$date": {
-      "$numberLong": "1663496250767"
+      "$numberLong": "1664358367596"
     }
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "6326f048d71fcc159951e66e"
+    "$oid": "63341802606a5993aa141845"
   },
   "kode": "G61",
-  "nama": "Pembusukan pada akar dan mengeluarkan air bila sedikit ditekan dengan jari",
+  "nama": "Terjadi pembusukan di akar  dan menghasilkan air jika ditekan sedikit  dengan jari",
   "bobot": 3,
   "createdAt": {
     "$date": {
-      "$numberLong": "1663496264111"
+      "$numberLong": "1664358402932"
     }
   },
   "updatedAt": {
     "$date": {
-      "$numberLong": "1663496264111"
+      "$numberLong": "1664358402932"
     }
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "6326f059d71fcc159951e675"
+    "$oid": "63341810606a5993aa14184c"
   },
   "kode": "G62",
-  "nama": "Pada permukaan akar terdapat miselium berwarna putih yang menjalar sepanjang akar",
+  "nama": "Dipermukaan akar ada miselium warna putih  menjalar di seluruh akar ",
   "bobot": 3,
   "createdAt": {
     "$date": {
-      "$numberLong": "1663496281861"
+      "$numberLong": "1664358416373"
     }
   },
   "updatedAt": {
     "$date": {
-      "$numberLong": "1663496281861"
+      "$numberLong": "1664358416373"
     }
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "6326f06bd71fcc159951e67e"
+    "$oid": "63341820606a5993aa141853"
   },
   "kode": "G63",
-  "nama": "Pada akar terdapat miselium berwarna putih yang bercabang-cabang, meluas seperti bulu",
+  "nama": "Miselium warna putih bercabang-cabang seperti bulu pada permukaan akar",
   "bobot": 3,
   "createdAt": {
     "$date": {
-      "$numberLong": "1663496299647"
+      "$numberLong": "1664358432584"
     }
   },
   "updatedAt": {
     "$date": {
-      "$numberLong": "1663496299647"
+      "$numberLong": "1664358432584"
     }
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "6326f07ad71fcc159951e685"
+    "$oid": "63341830606a5993aa14185a"
   },
   "kode": "G64",
-  "nama": "Adanya miselium yang melekat erat pada akar",
+  "nama": "Terdapat miselium yang menempel kuat pada akar",
   "bobot": 1,
   "createdAt": {
     "$date": {
-      "$numberLong": "1663496314867"
+      "$numberLong": "1664358448249"
     }
   },
   "updatedAt": {
     "$date": {
-      "$numberLong": "1663496314867"
+      "$numberLong": "1664358448249"
     }
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "6326f08ad71fcc159951e68c"
+    "$oid": "63341852606a5993aa141863"
   },
   "kode": "G65",
   "nama": "Daun menguning dan layu",
   "bobot": 2,
   "createdAt": {
     "$date": {
-      "$numberLong": "1663496330088"
+      "$numberLong": "1664358482108"
     }
   },
   "updatedAt": {
     "$date": {
-      "$numberLong": "1663496330088"
-    }
-  },
-  "__v": 0
-},{
-  "_id": {
-    "$oid": "62f76704d5dae9ff07500cc1"
-  },
-  "kode": "G60",
-  "nama": "Pada permukaan akar terdapat miselium berwarna putih yang menjalar sepanjang akar",
-  "bobot": 3,
-  "createdAt": {
-    "$date": {
-      "$numberLong": "1660380932348"
-    }
-  },
-  "updatedAt": {
-    "$date": {
-      "$numberLong": "1660380932348"
-    }
-  },
-  "__v": 0
-},{
-  "_id": {
-    "$oid": "62f76710d5dae9ff07500cc8"
-  },
-  "kode": "G61",
-  "nama": "Pada akar terdapat miselium berwarna putih yang bercabang-cabang, meluas seperti bulu",
-  "bobot": 3,
-  "createdAt": {
-    "$date": {
-      "$numberLong": "1660380944613"
-    }
-  },
-  "updatedAt": {
-    "$date": {
-      "$numberLong": "1660380944613"
-    }
-  },
-  "__v": 0
-},{
-  "_id": {
-    "$oid": "62f7671cd5dae9ff07500cd1"
-  },
-  "kode": "G62",
-  "nama": "Adanya miselium yang melekat erat pada akar",
-  "bobot": 1,
-  "createdAt": {
-    "$date": {
-      "$numberLong": "1660380956832"
-    }
-  },
-  "updatedAt": {
-    "$date": {
-      "$numberLong": "1660380956832"
-    }
-  },
-  "__v": 0
-},{
-  "_id": {
-    "$oid": "62f76728d5dae9ff07500cd8"
-  },
-  "kode": "G63",
-  "nama": "Daun menguning dan layu",
-  "bobot": 2,
-  "createdAt": {
-    "$date": {
-      "$numberLong": "1660380968517"
-    }
-  },
-  "updatedAt": {
-    "$date": {
-      "$numberLong": "1660380968517"
+      "$numberLong": "1664358482108"
     }
   },
   "__v": 0

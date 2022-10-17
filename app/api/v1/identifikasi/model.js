@@ -26,6 +26,16 @@ const identifikasiSchema = mongoose.Schema({
       default: {},
     },
   ],
+  detailSolusi: [
+    {
+      type: Object,
+      default: {},
+    },
+  ],
+  isVerified: {
+    type: Boolean,
+    default: false,
+  },
 });
 
 module.exports = mongoose.model("Identifikasi", identifikasiSchema);

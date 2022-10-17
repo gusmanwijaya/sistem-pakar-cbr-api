@@ -13,6 +13,7 @@ const penggunaRouter = require("./app/api/v1/pengguna/router");
 const dashboardRouter = require("./app/api/v1/dashboard/router");
 const identifikasiRouter = require("./app/api/v1/identifikasi/router");
 const informasiRouter = require("./app/api/v1/informasi/router");
+const basisBaruRouter = require("./app/api/v1/basis-baru/router");
 
 const notFoundMiddleware = require("./app/middleware/not-found");
 const handleErrorMiddleware = require("./app/middleware/handle-error");
@@ -38,6 +39,7 @@ app.use(`/${API_VERSION}/pengguna`, penggunaRouter);
 app.use(`/${API_VERSION}/dashboard`, dashboardRouter);
 app.use(`/${API_VERSION}/identifikasi`, identifikasiRouter);
 app.use(`/${API_VERSION}/informasi`, informasiRouter);
+app.use(`/${API_VERSION}/basis-baru`, basisBaruRouter);
 
 app.use(notFoundMiddleware);
 app.use(handleErrorMiddleware);

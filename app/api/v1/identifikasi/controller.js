@@ -22,7 +22,7 @@ module.exports = {
   },
   getRiwayatIdentifikasi: async (req, res, next) => {
     try {
-      const { user, page = 1, limit = 10 } = req.query;
+      const { user, isVerified, page = 1, limit = 10 } = req.query;
 
       let condition = {};
 
@@ -33,9 +33,16 @@ module.exports = {
         };
       }
 
+      if (isVerified) {
+        condition = {
+          ...condition,
+          isVerified,
+        };
+      }
+
       const data = await Identifikasi.find(condition)
         .select(
-          "_id user date selectedGejala allPenyakitnGejala processData detailPenyakit"
+          "_id user date selectedGejala allPenyakitnGejala processData detailPenyakit detailSolusi isVerified"
         )
         .populate({
           path: "user",
@@ -45,7 +52,7 @@ module.exports = {
         .limit(limit)
         .skip(limit * (page - 1));
 
-      const count = await Identifikasi.countDocuments();
+      const count = await Identifikasi.countDocuments(condition);
 
       res.status(StatusCodes.OK).json({
         statusCode: StatusCodes.OK,
@@ -65,7 +72,7 @@ module.exports = {
 
       const data = await Identifikasi.findOne({ _id: riwayatId })
         .select(
-          "_id user date selectedGejala allPenyakitnGejala processData detailPenyakit"
+          "_id user date selectedGejala allPenyakitnGejala processData detailPenyakit detailSolusi isVerified"
         )
         .populate({
           path: "user",
@@ -120,16 +127,16 @@ module.exports = {
 
       // START: Mengambil gejala yang ada di basis pengetahuan (Kasus lama)
       const allPenyakitnGejala = await BasisPengetahuan.find()
-        .select("_id hamaPenyakit gejala")
+        .select("_id hamaPenyakit gejala solusi")
         .populate({
           path: "hamaPenyakit",
-          select: "_id kode nama deskripsi foto solusi",
+          select: "_id kode nama deskripsi foto",
           model: "HamaPenyakit",
-          populate: {
-            path: "solusi",
-            select: "_id kode solusi",
-            model: "Solusi",
-          },
+        })
+        .populate({
+          path: "solusi",
+          select: "_id kode solusi",
+          model: "Solusi",
         })
         .populate({
           path: "gejala",
@@ -293,9 +300,29 @@ module.exports = {
         nama: {
           $in: _tempNamaHamaPenyakit,
         },
+      }).select("_id kode nama deskripsi foto");
+
+      const responseHasil = await BasisPengetahuan.find({
+        hamaPenyakit: {
+          $in: responseDetailPenyakit,
+        },
       })
-        .select("_id kode nama deskripsi foto solusi")
-        .populate("solusi", "_id kode solusi", "Solusi");
+        .select("_id hamaPenyakit gejala solusi")
+        .populate({
+          path: "hamaPenyakit",
+          select: "_id kode nama deskripsi foto",
+          model: "HamaPenyakit",
+        })
+        .populate({
+          path: "solusi",
+          select: "_id kode solusi",
+          model: "Solusi",
+        })
+        .populate({
+          path: "gejala",
+          select: "_id kode nama bobot",
+          model: "Gejala",
+        });
       // END: Mengambil detail dari penyakit dengan nilai similarity terbesar
 
       // START: Simpan data ke database
@@ -311,7 +338,6 @@ module.exports = {
             nama: value?.hamaPenyakit?.nama,
             deskripsi: value?.hamaPenyakit?.deskripsi,
             foto: value?.hamaPenyakit?.foto,
-            solusi: value?.hamaPenyakit?.solusi,
           },
           gejala: value?.gejala.map((result) => ({
             _id: result?._id,
@@ -319,22 +345,28 @@ module.exports = {
             nama: result?.nama,
             bobot: result?.bobot,
           })),
+          solusi: value?.solusi.map((result) => ({
+            _id: result?._id,
+            kode: result?.kode,
+            solusi: result?.solusi,
+          })),
         })),
         processData,
-        detailPenyakit: responseDetailPenyakit.map((valueDetailPenyakit) => ({
-          _id: valueDetailPenyakit?._id,
-          kode: valueDetailPenyakit?.kode,
-          nama: valueDetailPenyakit?.nama,
-          deskripsi: valueDetailPenyakit?.deskripsi,
-          foto: valueDetailPenyakit?.foto,
-          solusi:
-            valueDetailPenyakit?.solusi?.length > 0 &&
-            valueDetailPenyakit?.solusi?.map((valSolusi) => ({
-              _id: valSolusi?._id,
-              kode: valSolusi?.kode,
-              solusi: valSolusi?.solusi,
-            })),
+        detailPenyakit: responseHasil?.map((valueDetailPenyakit) => ({
+          _id: valueDetailPenyakit?.hamaPenyakit?._id,
+          kode: valueDetailPenyakit?.hamaPenyakit?.kode,
+          nama: valueDetailPenyakit?.hamaPenyakit?.nama,
+          deskripsi: valueDetailPenyakit?.hamaPenyakit?.deskripsi,
+          foto: valueDetailPenyakit?.hamaPenyakit?.foto,
         })),
+        detailSolusi: responseHasil?.map((valueResponseHasil) =>
+          valueResponseHasil?.solusi?.map((valueDetailSolusi) => ({
+            _id: valueDetailSolusi?._id,
+            kode: valueDetailSolusi?.kode,
+            solusi: valueDetailSolusi?.solusi,
+          }))
+        )[0],
+        isVerified: processData[0]?.similarity < 0.5 ? false : true,
       });
       // END: Simpan data ke database
 

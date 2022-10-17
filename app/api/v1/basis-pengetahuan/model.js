@@ -12,6 +12,12 @@ const basisPengetahuanSchema = mongoose.Schema(
         ref: "Gejala",
       },
     ],
+    solusi: [
+      {
+        type: mongoose.Schema.Types.ObjectId,
+        ref: "Solusi",
+      },
+    ],
   },
   { timestamps: true }
 );
