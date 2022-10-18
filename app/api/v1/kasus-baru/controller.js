@@ -132,29 +132,58 @@ module.exports = {
           `Basis baru dengan id : ${identifikasiId} tidak ditemukan!`
         );
 
-      data.isVerified = true;
-      await data.save();
+      const prevBasisPengetahuan = await BasisPengetahuan.find({
+        hamaPenyakit: {
+          $in: data?.detailPenyakit?.map((value) => value?._id),
+        },
+      }).populate({
+        path: "gejala",
+        select: "_id kode",
+        model: "Gejala",
+      });
+      const _kodePrevGejala = [];
+      prevBasisPengetahuan.forEach((element) => {
+        element?.gejala?.forEach((valueGejala) => {
+          _kodePrevGejala.push(valueGejala?.kode);
+        });
+      });
 
-      const updatedData = {
-        gejala: data?.selectedGejala?.map((value) => value?._id),
-        solusi: data?.detailSolusi?.map((value) => value?._id),
-      };
+      const _kodeSelectedGejala = [];
+      data?.selectedGejala?.forEach((value) => {
+        _kodeSelectedGejala.push(value?.kode);
+      });
 
-      let basisPengetahuan = await BasisPengetahuan.updateMany(
+      const _tempGejala = _kodePrevGejala.concat(_kodeSelectedGejala);
+
+      const uniqueKodeGejala = [...new Set(_tempGejala)];
+
+      const gejala = await Gejala.find({
+        kode: {
+          $in: uniqueKodeGejala,
+        },
+      }).select("_id");
+
+      const replaceBasisPengetahuan = await BasisPengetahuan.updateMany(
         {
           hamaPenyakit: {
             $in: data?.detailPenyakit?.map((value) => value?._id),
           },
         },
-        updatedData
+        {
+          gejala,
+          solusi: data?.detailSolusi?.map((value) => value?._id),
+        }
       );
+
+      data.isVerified = true;
+      await data.save();
 
       res.status(StatusCodes.OK).json({
         statusCode: StatusCodes.OK,
         message:
           "Berhasil melakukan verifikasi kasus baru, kasus baru sudah dipindahkan ke basis kasus!",
         data: {
-          basisPengetahuan,
+          replaceBasisPengetahuan,
         },
       });
     } catch (error) {
