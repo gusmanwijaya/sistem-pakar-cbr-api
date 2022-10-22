@@ -19,12 +19,7 @@ module.exports = {
       }
 
       const data = await HamaPenyakit.find(condition)
-        .select("_id kode nama foto solusi deskripsi")
-        .populate({
-          path: "solusi",
-          select: "_id kode solusi",
-          model: "Solusi",
-        })
+        .select("_id kode nama foto deskripsi")
         .limit(limit)
         .skip(limit * (page - 1));
 
@@ -46,13 +41,9 @@ module.exports = {
     try {
       const { id: hamaPenyakitId } = req.params;
 
-      const data = await HamaPenyakit.findOne({ _id: hamaPenyakitId })
-        .select("_id kode nama foto solusi deskripsi")
-        .populate({
-          path: "solusi",
-          select: "_id kode solusi",
-          model: "Solusi",
-        });
+      const data = await HamaPenyakit.findOne({ _id: hamaPenyakitId }).select(
+        "_id kode nama foto deskripsi"
+      );
 
       if (!data)
         throw new CustomError.NotFound(
