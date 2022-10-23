@@ -2,6 +2,7 @@ const Gejala = require("../gejala/model");
 const BasisPengetahuan = require("../basis-pengetahuan/model");
 const Identifikasi = require("./model");
 const HamaPenyakit = require("../hama-penyakit/model");
+const Solusi = require("../solusi/model");
 const { StatusCodes } = require("http-status-codes");
 const CustomError = require("../../../../app/error");
 const moment = require("moment");
@@ -323,6 +324,17 @@ module.exports = {
           select: "_id kode nama bobot",
           model: "Gejala",
         });
+
+      const concatSolusi = [];
+      responseHasil.forEach((element) => {
+        element?.solusi?.forEach((value) => concatSolusi.push(value?.kode));
+      });
+      const uniqueSolusi = [...new Set(concatSolusi)];
+      const detailSolusi = await Solusi.find({
+        kode: {
+          $in: uniqueSolusi,
+        },
+      }).select("_id kode solusi");
       // END: Mengambil detail dari penyakit dengan nilai similarity terbesar
 
       // START: Simpan data ke database
@@ -359,13 +371,7 @@ module.exports = {
           deskripsi: valueDetailPenyakit?.hamaPenyakit?.deskripsi,
           foto: valueDetailPenyakit?.hamaPenyakit?.foto,
         })),
-        detailSolusi: responseHasil?.map((valueResponseHasil) =>
-          valueResponseHasil?.solusi?.map((valueDetailSolusi) => ({
-            _id: valueDetailSolusi?._id,
-            kode: valueDetailSolusi?.kode,
-            solusi: valueDetailSolusi?.solusi,
-          }))
-        )[0],
+        detailSolusi,
         isVerified: processData[0]?.similarity < 0.5 ? false : true,
       });
       // END: Simpan data ke database
