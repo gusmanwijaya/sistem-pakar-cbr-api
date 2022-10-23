@@ -136,15 +136,28 @@ module.exports = {
         hamaPenyakit: {
           $in: data?.detailPenyakit?.map((value) => value?._id),
         },
-      }).populate({
-        path: "gejala",
-        select: "_id kode",
-        model: "Gejala",
-      });
+      })
+        .populate({
+          path: "gejala",
+          select: "_id kode",
+          model: "Gejala",
+        })
+        .populate({
+          path: "solusi",
+          select: "_id kode",
+          model: "Solusi",
+        });
+
       const _kodePrevGejala = [];
       prevBasisPengetahuan.forEach((element) => {
         element?.gejala?.forEach((valueGejala) => {
           _kodePrevGejala.push(valueGejala?.kode);
+        });
+      });
+      const _kodePrevSolusi = [];
+      prevBasisPengetahuan.forEach((element) => {
+        element?.solusi?.forEach((valueSolusi) => {
+          _kodePrevSolusi.push(valueSolusi?.kode);
         });
       });
 
@@ -152,14 +165,25 @@ module.exports = {
       data?.selectedGejala?.forEach((value) => {
         _kodeSelectedGejala.push(value?.kode);
       });
+      const _kodeDetailSolusi = [];
+      data?.detailSolusi?.forEach((value) => {
+        _kodeDetailSolusi.push(value?.kode);
+      });
 
       const _tempGejala = _kodePrevGejala.concat(_kodeSelectedGejala);
+      const _tempSolusi = _kodePrevSolusi.concat(_kodeDetailSolusi);
 
       const uniqueKodeGejala = [...new Set(_tempGejala)];
+      const uniqueKodeSolusi = [...new Set(_tempSolusi)];
 
       const gejala = await Gejala.find({
         kode: {
           $in: uniqueKodeGejala,
+        },
+      }).select("_id");
+      const solusi = await Solusi.find({
+        kode: {
+          $in: uniqueKodeSolusi,
         },
       }).select("_id");
 
@@ -171,7 +195,7 @@ module.exports = {
         },
         {
           gejala,
-          solusi: data?.detailSolusi?.map((value) => value?._id),
+          solusi,
         }
       );
 
