@@ -43,7 +43,7 @@ module.exports = {
 
       const data = await Identifikasi.find(condition)
         .select(
-          "_id user date selectedGejala allPenyakitnGejala processData detailPenyakit detailSolusi isVerified"
+          "_id user date selectedGejala allPenyakitnGejala processData detailPenyakit detailSolusi isVerified responseHasil"
         )
         .populate({
           path: "user",
@@ -73,7 +73,7 @@ module.exports = {
 
       const data = await Identifikasi.findOne({ _id: riwayatId })
         .select(
-          "_id user date selectedGejala allPenyakitnGejala processData detailPenyakit detailSolusi isVerified"
+          "_id user date selectedGejala allPenyakitnGejala processData detailPenyakit detailSolusi isVerified responseHasil"
         )
         .populate({
           path: "user",
@@ -373,6 +373,21 @@ module.exports = {
         })),
         detailSolusi,
         isVerified: processData[0]?.similarity < 0.5 ? false : true,
+        responseHasil: responseHasil?.map((valueResponseHasil) => ({
+          _id: valueResponseHasil?._id,
+          hamaPenyakit: {
+            _id: valueResponseHasil?.hamaPenyakit?._id,
+            kode: valueResponseHasil?.hamaPenyakit?.kode,
+            nama: valueResponseHasil?.hamaPenyakit?.nama,
+            deskripsi: valueResponseHasil?.hamaPenyakit?.deskripsi,
+            foto: valueResponseHasil?.hamaPenyakit?.foto,
+          },
+          solusi: valueResponseHasil?.solusi?.map((valueSolusi) => ({
+            _id: valueSolusi?._id,
+            kode: valueSolusi?.kode,
+            solusi: valueSolusi?.solusi,
+          })),
+        })),
       });
       // END: Simpan data ke database
 

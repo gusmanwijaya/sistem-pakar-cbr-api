@@ -36,6 +36,10 @@ const identifikasiSchema = mongoose.Schema({
     type: Boolean,
     default: false,
   },
+  responseHasil: {
+    type: Array,
+    default: [],
+  },
 });
 
 module.exports = mongoose.model("Identifikasi", identifikasiSchema);
