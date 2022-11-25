@@ -12,9 +12,6 @@ module.exports = {
       const { page = 1, limit = 10 } = req.query;
 
       const data = await Identifikasi.find({ isVerified: false })
-        .select(
-          "_id user date selectedGejala detailPenyakit detailSolusi isVerified"
-        )
         .populate({
           path: "user",
           select: "_id nama email role",
@@ -43,15 +40,11 @@ module.exports = {
 
       const data = await Identifikasi.findOne({
         _id: identifikasiId,
-      })
-        .select(
-          "_id user date selectedGejala detailPenyakit detailSolusi isVerified"
-        )
-        .populate({
-          path: "user",
-          select: "_id nama email role",
-          model: "User",
-        });
+      }).populate({
+        path: "user",
+        select: "_id nama email role",
+        model: "User",
+      });
 
       if (!data)
         throw new CustomError.NotFound(
